@@ -1,0 +1,2390 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:longcreekrealty@gmail.com
+PRODID:-//Apple Inc.//macOS 11.6.7//EN
+X-WR-CALDESC:longcreekrealty@gmail.com
+X-APPLE-CALENDAR-COLOR:#9FE1E7
+X-WR-TIMEZONE:America/Chicago
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:MDT
+TZOFFSETTO:-0600
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:MST
+TZOFFSETTO:-0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:CDT
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:CST
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Mexico_City
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;UNTIL=20220403T080000Z;BYMONTH=4;BYDAY=1SU
+DTSTART:20020407T020000
+TZNAME:CDT
+TZOFFSETTO:-0500
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;UNTIL=20221030T070000Z;BYMONTH=10;BYDAY=-1SU
+DTSTART:20021027T020000
+TZNAME:CST
+TZOFFSETTO:-0600
+END:STANDARD
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+DTSTART:20221030T020000
+TZNAME:CST
+TZOFFSETTO:-0600
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:PDT
+TZOFFSETTO:-0700
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:PST
+TZOFFSETTO:-0800
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Larkspur Meeting
+X-MICROSOFT-CDO-OWNERAPPTID:-1955850266
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Gabriela Castellana":mailto:gcastellana@mymilestone.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000E0696E7DB607D801000000000000
+ 0000100000001E2E31097F537A4C9E84E8C0E4BE181F
+DTSTART;TZID=America/Chicago:20220112T150000
+SEQUENCE:2
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+LOCATION:https://teams.microsoft.com/l/meetup-join/19:0c2a14f5dc0c4e93b0
+ d400e1759f836f@thread.tacv2/1642015486442?context=%7B%22Tid%22:%227061a8
+ 84-d114-4839-86f5-795c8a6e1d81%22\,%22Oid%22:%22e0f70b5b-7c89-41c6-8bcd-
+ b59b79713a81%22%7D
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20221130T185722Z
+LAST-MODIFIED:20221130T185722Z
+ATTENDEE;CN="Gabriela Castellana";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTIO
+ N;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:gcastellana@mymilestone.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="sumeyyeakin2@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-AC
+ TION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sumeyyeakin2@gmail.com
+CREATED:20220112T193450Z
+DTEND;TZID=America/Chicago:20220112T160000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:https://teams.microsoft.com/l/meetup-join/19:0c2a14f5dc0c4e9
+ 3b0d400e1759f836f@thread.tacv2/1642015486442?context=%7B%22Tid%22:%22706
+ 1a884-d114-4839-86f5-795c8a6e1d81%22\,%22Oid%22:%22e0f70b5b-7c89-41c6-8b
+ cd-b59b79713a81%22%7D\n
+BEGIN:VALARM
+X-WR-ALARMUID:4BC37CDD-3754-4D43-81FB-33DED669F318
+UID:4BC37CDD-3754-4D43-81FB-33DED669F318
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220112T205000Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:1CB014F3-1BD7-4E9C-9763-FDD9CE89A7DF
+UID:1CB014F3-1BD7-4E9C-9763-FDD9CE89A7DF
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND:20210902T152000Z
+UID:calendly-320922606
+DTSTAMP:20210902T145808Z
+LOCATION:https://calendly.com/events/GLEBVHDNG4F5UNPE/microsoft_teams
+DESCRIPTION:Event Name: 15 Minute Meeting\nDate & Time: 10:05am - 10:20a
+ m (Central Time - US & Canada) on Thursday\, September 2\, 2021\nLocatio
+ n: This is a Microsoft Teams web conference.\n\nYou can join this meetin
+ g from your computer\, tablet\, or smartphone.\nhttps://calendly.com/eve
+ nts/GLEBVHDNG4F5UNPE/microsoft_teams\n\nYou can also dial in using your 
+ phone.\nUS: +1 470 588 8490\nConference ID: 446 283 016#\n\nFind your lo
+ cal number: https://dialin.teams.microsoft.com/ead379b8-8adc-4408-bc0e-e
+ 0642326dd65?id=446283016\n\nNeed to make changes to this event?\nCancel:
+  https://calendly.com/cancellations/ENG2AXCGZWC63R5S\nReschedule: https:
+ //calendly.com/reschedulings/ENG2AXCGZWC63R5S\n
+STATUS:CONFIRMED
+SEQUENCE:0
+CLASS:PRIVATE
+SUMMARY:15 Minute Meeting with Tracy Taylor
+LAST-MODIFIED:20210902T145808Z
+DTSTART:20210902T150500Z
+CREATED:20210831T204718Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:784717A8-B5C9-4C88-A7BC-6FFCFB64A586
+UID:784717A8-B5C9-4C88-A7BC-6FFCFB64A586
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20210902T145808Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:7E1CBB71-6943-41C9-93C5-F5A7CF90E5FA
+UID:7E1CBB71-6943-41C9-93C5-F5A7CF90E5FA
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[]
+SUMMARY:Abdullah Uzundere: Live Video Tour
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2119968006
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Belinda Carey":mailto:belinda.carey@ashtonwoods.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000006602C8D29E9D701000000000000
+ 0000100000007E921D7C17426643A8B9D8BC85A873BA
+DTSTART;TZID=America/Mexico_City:20211206T163000
+SEQUENCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+ATTENDEE;CN="sumeyyeakin2@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-AC
+ TION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:sumeyyeakin2@gmail.com
+STATUS:CONFIRMED
+DTSTAMP:20221130T185713Z
+LAST-MODIFIED:20221130T185713Z
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+CREATED:20211209T184555Z
+DTEND;TZID=America/Mexico_City:20211206T173000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Event Name: Live Video Tour\n\nTake a guided tour of any of 
+ our model homes. Conduct your entire home-buying experience virtually\, 
+ from anywhere.\n\nPhone Number: +1 210-421-2419\n\nPlease share anything
+  that will help prepare us for your tour.: We need to know what is comin
+ g with this home at Mockingbird community homes. Including pricing or if
+  we can add more upgrades\, changing kitchen cabinet colors or materials
+ \, flooring\, etc.\n\nNeed to make changes to this event?\nCancel: https
+ ://calendly.com/cancellations/2ad9c550-3749-4d9a-bd26-d6d8056bf9be\nResc
+ hedule: https://calendly.com/reschedulings/2ad9c550-3749-4d9a-bd26-d6d80
+ 56bf9be\n
+BEGIN:VALARM
+X-WR-ALARMUID:C2DF16CE-CABD-46CA-86FF-5DB92959BEC8
+UID:C2DF16CE-CABD-46CA-86FF-5DB92959BEC8
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20211206T225248Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:99A54E4B-0E59-4B71-8A08-D122BB58AB97
+UID:99A54E4B-0E59-4B71-8A08-D122BB58AB97
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20220114T161500
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="ryan.amazeen@modustitle.com":mailto:ryan.amazeen@modustitl
+ e.com
+UID:5i6v8mcqruftf0vp7hfem4vdqb@google.com
+DTSTAMP:20221130T185713Z
+X-GOOGLE-CONFERENCE:https://meet.google.com/tvw-mhfg-akd
+X-GOOGLE-CONFERENCE:https://meet.google.com/tvw-mhfg-akd
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.
+ com/tvw-mhfg-akd\nOr dial: (US) +1 614-845-2665 PIN: 138608056#\nMore ph
+ one numbers: https://tel.meet/tvw-mhfg-akd?pin=6753459994102&hs=7\n\nLea
+ rn more about Meet at: https://support.google.com/a/users/answer/9282720
+ \n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Modus Title & Escrow Meeting with Abdullah Uzundere
+LAST-MODIFIED:20221130T185713Z
+DTSTART;TZID=America/Chicago:20220114T160000
+CREATED:20220113T144052Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="ryan.amazeen@modustitle.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACC
+ EPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.amazeen@modustitle
+ .com
+BEGIN:VALARM
+X-WR-ALARMUID:E2D6BCCB-D110-44FB-ADF3-891998F7A623
+UID:E2D6BCCB-D110-44FB-ADF3-891998F7A623
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220114T220048Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:1726968D-B15A-4342-ABF6-C2CDA2FF4029
+UID:1726968D-B15A-4342-ABF6-C2CDA2FF4029
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20210609T123000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="hannah@homeward.com":mailto:hannah@homeward.com
+UID:3p9bt0lac0jt9quop6053i4g8s@google.com
+DTSTAMP:20221130T185713Z
+LOCATION:Phone Call
+DESCRIPTION:Thank you for scheduling time for us to connect. You'll be m
+ eeting with one of our Customer Advisors. \n\nPlease feel free to watch 
+ this video in advance of our meeting: https://vimeo.com/531366159\n\nPho
+ ne number: 2104212419\nHome Buying State: TX\nWhat would you like to dis
+ cuss?: How Homeward Works
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Abdullah Uzundere: Homeward Advisor Call
+LAST-MODIFIED:20221130T185713Z
+DTSTART;TZID=America/Chicago:20210609T120000
+CREATED:20210608T214946Z
+ATTENDEE;CN="hannah@homeward.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:hannah@homeward.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:7D244506-9208-434A-A768-4784B4C26D3E
+UID:7D244506-9208-434A-A768-4784B4C26D3E
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20210609T163106Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:BA54A639-5937-4FE7-941C-A1520F04D5D2
+UID:BA54A639-5937-4FE7-941C-A1520F04D5D2
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20210318T160000
+UID:16jauef9kl4j6stnn6ov0dmrfp@google.com
+DTSTAMP:20210318T195712Z
+LOCATION:GoToWebinar - See conference call information below
+DESCRIPTION:1. Click and join at the specified time and date: \nhttps://
+ global.gotowebinar.com/join/6258954961447329803/270073422 \nNote: This l
+ ink should be not shared with others it is unique to you. \n\n2. More we
+ binar details: \nhttps://attendee.gotowebinar.com/additionalInfo.tmpl?du
+ plicate=false&webinar=6258954961447329803&aregistrantConfirmation=638213
+ 8746689686799
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:GoToWebinar - Digital Title for Transactions (TransactionDesk)
+LAST-MODIFIED:20210318T195712Z
+DTSTART;TZID=America/New_York:20210318T153000
+CREATED:20210309T173655Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:479FA5AA-29A7-4DF2-B60E-718808B145B0
+UID:479FA5AA-29A7-4DF2-B60E-718808B145B0
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20210318T195600Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:386809E5-330F-4E7E-AC16-5390F82EE69E
+UID:386809E5-330F-4E7E-AC16-5390F82EE69E
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"8240 N Mopac Expw\, Suite 200\, A
+ ustin TX 78759"\,"LocationAnnotation":""\,"LocationUri":""\,"LocationStr
+ eet":""\,"LocationCity":""\,"LocationState":""\,"LocationCountry":""\,"L
+ ocationPostalCode":""\,"LocationFullAddress":""}]
+SUMMARY:CLOSING DAY!!  1124 Stetson Hat - Khan/Ruqayya
+X-MICROSOFT-CDO-OWNERAPPTID:-2118469659
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Sue Gugala":mailto:sgugala@mhinc.com
+TRANSP:OPAQUE
+ATTACH;VALUE=URI:?view=att&th=17d5dc5c0786fb29&attid=0.2&disp=attd&zw
+ATTACH;VALUE=URI:?view=att&th=17d5dc5c0786fb29&attid=0.3&disp=attd&zw
+ATTACH;VALUE=URI:?view=att&th=17d5dc5c0786fb29&attid=0.1&disp=attd&zw
+DTSTART;TZID=America/Chicago:20211207T110000
+UID:040000008200E00074C5B7101A82E0080000000090C272D5A8E2D701000000000000
+ 0000100000002DD89C04F1595D41BA75B99F290FFBD2
+SEQUENCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+LOCATION:8240 N Mopac Expw\, Suite 200\, Austin TX 78759
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20221130T185722Z
+LAST-MODIFIED:20221130T185722Z
+ATTENDEE;CN="'pieman2010@gmail.com'";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-AC
+ TION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:pieman2010@gmail.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="mohammadsabir1@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-
+ ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mohammadsabir1@gmail.c
+ om
+CREATED:20211126T194257Z
+DTEND;TZID=America/Chicago:20211207T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n[http://www.stewart.com/content/dam/stewart/Microsites/aus
+ tin/Images/employees/sig/logo-AfBAs/wfa.png]\n\nWIRE FRAUD ALERT! Your s
+ ecurity is our concern. Please always call your closing team to confirm 
+ wiring instructions before initiating a wire.\n\n\n[http://www.stewart.c
+ om/content/dam/stewart/Microsites/austin/Images/employees/sig/mdemitri.j
+ pg]\n\nMARISA HARRINGTON\nEscrow Officer\nNorth MoPac\nProsperity Title 
+ Company\, LLC\n8240 N. MoPac Expy.\, Ste. 200\nAustin\, TX 78759\nmain: 
+ (512) 346-0641 | direct (512) 615-9613 | fax (512) 419-9489\nprospertitl
+ e.com<http://www.prospertitle.com/> | marisa.harrington@prospertitle.com
+ <mailto:marisa.harrington@prospertitle.com>\n\n[Stewart]\n“Due to curren
+ t concerns and precautions regarding Covid-19 and in consideration for t
+ he safety of our customers and associates\, please note that we are reco
+ mmending that only principals attend the closing at our offices\, both i
+ n waiting areas and conference rooms. Please do not bring any family mem
+ bers\, children or infants\, or any other parties if they are not needed
+  to sign documents.”\n\n\n
+BEGIN:VALARM
+X-WR-ALARMUID:4DDD9F33-1125-43F2-A437-B277CEADABF7
+UID:4DDD9F33-1125-43F2-A437-B277CEADABF7
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[]
+SUMMARY:Ayse Karayol: Live Video Tour
+X-MICROSOFT-CDO-OWNERAPPTID:2120301985
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Belinda Carey":mailto:belinda.carey@ashtonwoods.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000A1381A181D04D801000000000000
+ 0000100000005EA377E2A7ECFE4C8F4CF630FBF05968
+DTSTART;TZID=America/Chicago:20220115T140000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20221130T185722Z
+LAST-MODIFIED:20221130T185722Z
+ATTENDEE;CN="Ayse Karayol";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:akarayol33@gmail.com
+ATTENDEE;CN="akarayol03@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTI
+ ON;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:akarayol03@gmail.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+CREATED:20220107T232001Z
+DTEND;TZID=America/Chicago:20220115T150000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Event Name: Live Video Tour\n\nTake a guided tour of any of 
+ our model homes. Conduct your entire home-buying experience virtually\, 
+ from anywhere.\n\nPhone Number: +1 630-440-9895\n\nPlease share anything
+  that will help prepare us for your tour.: We interested in Westlake pla
+ n for January releases\n\nNeed to make changes to this event?\nCancel: h
+ ttps://calendly.com/cancellations/54184421-e448-445f-a8f8-b0b3a6334045\n
+ Reschedule: https://calendly.com/reschedulings/54184421-e448-445f-a8f8-b
+ 0b3a6334045\n
+BEGIN:VALARM
+X-WR-ALARMUID:C6FB23F8-8284-46E6-A0F5-22776B34C47F
+UID:C6FB23F8-8284-46E6-A0F5-22776B34C47F
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[]
+SUMMARY:Zengin Contract
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2119416948
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Emily Besserer":mailto:emily.besserer@pulte.com
+TRANSP:OPAQUE
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"On
+ lineMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_YzNjMWFkYjQtYmNkZi00ZWQyLWJkY2YtYjM4MmJmNDJmZDM0%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%221a9277a3-ef66-41f6-96b5-c5390ee468a7%22
+ %2c%22Oid%22%3a%22d65a2461-1d51-41d6-af1b-b713bf6ea819%22%7d
+UID:040000008200E00074C5B7101A82E0080000000074777E470720D701000000000000
+ 00001000000082E44B88CE0FB44C899284AAC743D610
+DTSTART;TZID=America/Chicago:20210324T130000
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 469-208-1516
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:Emily.Besserer@Pulte.com\;gru
+ u\;opaque=app:conf:focus:id:teams:2:0!19:meeting_YzNjMWFkYjQtYmNkZi00ZWQ
+ yLWJkY2YtYjM4MmJmNDJmZDM0-thread.v2!d65a24611d5141d6af1bb713bf6ea819!1a9
+ 277a3ef6641f696b5c5390ee468a7
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:494388842
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="mr.selcukzengin@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mr.selcukzengin@gmail
+ .com
+STATUS:CONFIRMED
+DTSTAMP:20221130T185722Z
+LAST-MODIFIED:20221130T185722Z
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YzNjMWFkYjQtYmNkZi00
+ ZWQyLWJkY2YtYjM4MmJmNDJmZDM0@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"
+ private":true\,"type":0}
+CREATED:20210323T170927Z
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGTOLLFREENUMBERS:+1 877-326-5634
+DTEND;TZID=America/Chicago:20210324T140000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.micro
+ soft.com/teams/1a9277a3-ef66-41f6-96b5-c5390ee468a7/d65a2461-1d51-41d6-a
+ f1b-b713bf6ea819/19_meeting_YzNjMWFkYjQtYmNkZi00ZWQyLWJkY2YtYjM4MmJmNDJm
+ ZDM0@thread.v2/0
+DESCRIPTION:\n\n\n______________________________________________________
+ __________________________\nMicrosoft Teams meeting\nJoin on your comput
+ er or mobile app\nClick here to join the meeting<https://teams.microsoft
+ .com/l/meetup-join/19%3ameeting_YzNjMWFkYjQtYmNkZi00ZWQyLWJkY2YtYjM4MmJm
+ NDJmZDM0%40thread.v2/0?context=%7b%22Tid%22%3a%221a9277a3-ef66-41f6-96b5
+ -c5390ee468a7%22%2c%22Oid%22%3a%22d65a2461-1d51-41d6-af1b-b713bf6ea819%2
+ 2%7d>\nOr call in (audio only)\n+1 469-208-1516\,\,494388842#<tel:+14692
+ 081516\,\,494388842#>   United States\, Dallas\n(877) 326-5634\,\,494388
+ 842#<tel:8773265634\,\,494388842#>   United States (Toll-free)\nPhone Co
+ nference ID: 494 388 842#\nFind a local number<https://dialin.teams.micr
+ osoft.com/5ae90daf-f906-4e67-b9a6-ed4752839574?id=494388842> | Reset PIN
+ <https://mysettings.lync.com/pstnconferencing>\nLearn More<https://aka.m
+ s/JoinTeamsMeeting> | Meeting options<https://teams.microsoft.com/meetin
+ gOptions/?organizerId=d65a2461-1d51-41d6-af1b-b713bf6ea819&tenantId=1a92
+ 77a3-ef66-41f6-96b5-c5390ee468a7&threadId=19_meeting_YzNjMWFkYjQtYmNkZi0
+ 0ZWQyLWJkY2YtYjM4MmJmNDJmZDM0@thread.v2&messageId=0&language=en-US>\n___
+ ________________________________________________________________________
+ _____\n\n________________________________\n\nCONFIDENTIALITY NOTICE: Thi
+ s email may contain confidential and privileged material for the sole us
+ e of the intended recipient(s). Any review\, use\, distribution or discl
+ osure by others is strictly prohibited. If you have received this commun
+ ication in error\, please notify the sender immediately by email and del
+ ete the message and any file attachments from your computer. Thank you.\
+ n
+BEGIN:VALARM
+X-WR-ALARMUID:6EE3BE0E-1DDD-41FC-ABE3-727CC61BF3D6
+UID:6EE3BE0E-1DDD-41FC-ABE3-727CC61BF3D6
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20210324T190000Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:721C9E77-F766-423F-AD50-2E88ADF28F3E
+UID:721C9E77-F766-423F-AD50-2E88ADF28F3E
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Los_Angeles:20220125T160000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="reotrustorg@gmail.com":mailto:reotrustorg@gmail.com
+UID:-1319164203@logmein.com
+DTSTAMP:20221130T185713Z
+LOCATION:GoToWebinar - See conference call information below
+DESCRIPTION:1. Click and join at the specified time and date:\nhttps://g
+ lobal.gotowebinar.com/join/7396069893953023756/730062734\nNote: This lin
+ k should not be shared with others\; it is unique to you.\n\n2. Choose o
+ ne of the following audio options:\n\nTO USE YOUR COMPUTER'S AUDIO:\nWhe
+ n the Webinar begins\, you will be connected to audio using your compute
+ r's microphone and speakers (VoIP). A headset is recommended.\n\n-- OR -
+ -\n\nTO USE YOUR TELEPHONE:\nIf you prefer to use your phone\, you must 
+ select "Use Telephone" after joining the webinar and call in using the n
+ umbers below.\n\nUnited States: +1 (213) 929-4212\nAccess Code: 386-829-
+ 722\nAudio PIN: Shown after joining the webinar\n\nAs a pre-selected att
+ endee\, this specialized training will assist you with submitting your d
+ ocumentation to complete your registration for new 2021 REO listings.  A
+ long with application assistance\, you will learn best practices for exp
+ editing your registration and you will receive additional information ab
+ out identifying and contacting your area asset manager(s) who may assist
+  with facilitating your approval.\n\nResidents of countries outside of t
+ he United States are prohibited from participating and/or providing any 
+ personal information. This meeting is exclusively for US resident real e
+ state agents and brokers. By providing your information\, you are author
+ izing us to communicate with you via phone\, SMS and email and you are a
+ ttesting that you are a United States resident agent or broker. \n\nAdva
+ nce registration is recommended.\n
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:GoToWebinar - Broker and agent approval 
+LAST-MODIFIED:20221130T185713Z
+DTSTART;TZID=America/Los_Angeles:20220125T150000
+CREATED:20220124T192808Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:B94494C0-1709-4648-8B9F-0072655C7CDD
+UID:B94494C0-1709-4648-8B9F-0072655C7CDD
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220125T225207Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:5F481D22-EBB3-405C-BDE9-E5671FE4133E
+UID:5F481D22-EBB3-405C-BDE9-E5671FE4133E
+TRIGGER:-PT15M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[]
+SUMMARY:144 Prairie Falcon Way - Build Quality Orientation 
+X-MICROSOFT-CDO-OWNERAPPTID:-1286264858
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Quinn Guest":mailto:quinn.guest@pulte.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000005061FBC42D27D801000000000000
+ 0000100000003A599566218BAB489753E49FFEE7A61D
+DTSTART;TZID=America/Chicago:20220222T100000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20221130T185713Z
+LAST-MODIFIED:20221130T185713Z
+ATTENDEE;CN="Michael Fisher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:michael.fisher@pulte.com
+ATTENDEE;CN="Nathan Sellars";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:nathan.sellars@pulte.com
+ATTENDEE;CN="Ray Enriquez";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:ray.enriquez@pulte.com
+ATTENDEE;CN="Yusuf Karal";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:yusufkaraltx@gmail.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20220221T201800Z
+DTEND;TZID=America/Chicago:20220222T110000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n\n_____________________________________________\nFrom: Yus
+ uf Karal <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gmail.com>>\nSent: 
+ Monday\, February 21\, 2022 8:24 AM\nTo: Quinn Guest <Quinn.Guest@pulte.
+ com<mailto:Quinn.Guest@pulte.com>>\nCc: Nathan Sellars <Nathan.Sellars@p
+ ulte.com<mailto:Nathan.Sellars@pulte.com>>\; Ray Enriquez <Ray.Enriquez@
+ pulte.com<mailto:Ray.Enriquez@pulte.com>>\; Michael Fisher <Michael.Fish
+ er@pulte.com<mailto:Michael.Fisher@pulte.com>>\; longcreekrealty@gmail.c
+ om<mailto:longcreekrealty@gmail.com>\nSubject: Re: 144 Prairie Falcon Wa
+ y - Construction Updates - Karal\, Yusuf\n\nGood morning Quinn\,\n\nSoun
+ ds like a plan. I will be there tomorrow at 10.\n\nThanks\n\nOn Mon\, Fe
+ b 21\, 2022\, 8:21 AM Quinn Guest <Quinn.Guest@pulte.com<mailto:Quinn.Gu
+ est@pulte.com>> wrote:\n Good morning Yusuf\,\n\nI am currently only ava
+ ilable to meet at 10 tomorrow Tuesday 2/22. If this time works for tomor
+ row\, please let me know and I can send out the calendar invitation. The
+  meeting is at the house and typically takes about 1 hour. Have a great 
+ day.\n\nThank you\,\n\n\n\nQuinn Guest\nConstruction Manager: Central Te
+ xas Division\n9401 Amberglen Blvd. Bldg I\, Suite 150\nQuinn.Guest@Pulte
+ .com<mailto:Quinn.Guest@Pulte.com>\n________________________________\nFr
+ om: Nathan Sellars <Nathan.Sellars@Pulte.com<mailto:Nathan.Sellars@Pulte
+ .com>>\nSent: Saturday\, February 19\, 2022 11:44:44 AM\nTo: Yusuf Karal
+  <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gmail.com>>\nCc: Quinn Gues
+ t <Quinn.Guest@Pulte.com<mailto:Quinn.Guest@Pulte.com>>\; Ray Enriquez <
+ Ray.Enriquez@Pulte.com<mailto:Ray.Enriquez@Pulte.com>>\; Michael Fisher 
+ <Michael.Fisher@Pulte.com<mailto:Michael.Fisher@Pulte.com>>\; longcreekr
+ ealty@gmail.com<mailto:longcreekrealty@gmail.com> <longcreekrealty@gmail
+ .com<mailto:longcreekrealty@gmail.com>>\nSubject: RE: 144 Prairie Falcon
+  Way - Construction Updates - Karal\, Yusuf\n\n\nHi Yusuf\,\n\n\n\nWe ar
+ e currently sold out at the moment and won’t have homes available to us 
+ until April or May at best. I can keep you posted as we learn more infor
+ mation about the homes we will have available.\n\n\n\nQuinn- let us know
+  if this time will work on Tuesday. I believe we are off on Monday for P
+ residents day.\n\n\n\nBest Regards\,\n\n\n\n[cid:image001.png@01D82586.1
+ 61C7A00]\n\nNathan Sellars\n\nSales Consultant : : Summerlyn\n\nOffice (
+ 512) 532-3441 : : Cell (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<m
+ ailto:Nathan.Sellars@pulte.com>\n\nOut of office Thursday and Friday.\n\
+ nFollow Link For Floor Plans and Community Information: https://digitalb
+ rochure.centex.com/view/840418/\n\n\n\nSummerlyn Model Address:\n\n511 H
+ oot Owl Lane South\n\nLeander\, Tx 78641\n\n\n\nFrom: Yusuf Karal yusufk
+ araltx@gmail.com<mailto:yusufkaraltx@gmail.com>\nSent: Friday\, February
+  18\, 2022 10:43 AM\nTo: Nathan Sellars Nathan.Sellars@pulte.com<mailto:
+ Nathan.Sellars@pulte.com>\nSubject: Re: 144 Prairie Falcon Way - Constru
+ ction Updates - Karal\, Yusuf\n\n\n\nExternal Sender\n\nHi Nathan\,\n\n\
+ n\nI hope you are doing well.\n\nCan we do Pre-Drywall Orientation on Tu
+ esday? And could you please send me the list of available houses? I am g
+ oing to share it with my friends.\n\n\n\nThanks\n\n\n\n\n\n\n\n\n\nBest 
+ Regards\,\n\n\n\n[cid:image001.png@01D82586.161C7A00]\n\nNathan Sellars\
+ n\nSales Consultant : : Summerlyn\n\nOffice (512) 532-3441 : : Cell (713
+ ) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@pulte.
+ com>\n\nOut of office Thursday and Friday.\n\nFollow Link For Floor Plan
+ s and Community Information: https://digitalbrochure.centex.com/view/840
+ 418/\n\n\n\nSummerlyn Model Address:\n\n511 Hoot Owl Lane South\n\nLeand
+ er\, Tx 78641\n\n\n\nFrom: Nathan Sellars\nSent: Saturday\, February 12\
+ , 2022 11:46 AM\nTo: Yusuf Karal <yusufkaraltx@gmail.com<mailto:yusufkar
+ altx@gmail.com>>\nCc: Quinn Guest <Quinn.Guest@Pulte.com<mailto:Quinn.Gu
+ est@Pulte.com>>\; Ray Enriquez <Ray.Enriquez@Pulte.com<mailto:Ray.Enriqu
+ ez@Pulte.com>>\; Michael Fisher <Michael.Fisher@Pulte.com<mailto:Michael
+ .Fisher@Pulte.com>>\; longcreekrealty@gmail.com<mailto:longcreekrealty@g
+ mail.com>\nSubject: RE: 144 Prairie Falcon Way - Construction Updates - 
+ Karal\, Yusuf\n\n\n\nHi Yusuf\,\n\n\n\nI hope this finds you both well a
+ nd excited about your new home! Please see below for construction update
+ s on the status of your home over the next 2 weeks. If you have any ques
+ tions please reach back and “Reply All” to this email.\n\n\n\nWeekly Con
+ struction Updates:\n\n\n\n  *   All Mechanicals have been installed. I.e
+ . Plumbing\, electrical\, and HVAC rough.\n  *   Going through frame ins
+ pection currently. Mechanicals have passed inspection and insulation is 
+ installed\n\n\n\nMoving into Next Week:\n\n\n\n  *   It is time to look 
+ at scheduling your Pre-Drywall Orientation with your builder Quinn. This
+  is the opportunity to walk the home with the builder and ask questions 
+ you might have come across during the construction. We can schedule this
+  walk for Tuesday or Thursday next week between 10am-2pm.\n\n\n\n\n\n\n\
+ n\n\nBest Regards\,\n\n\n\n[cid:image001.png@01D82586.161C7A00]\n\nNatha
+ n Sellars\n\nSales Consultant : : Summerlyn\n\nOffice (512) 532-3441 : :
+  Cell (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan.Sell
+ ars@pulte.com>\n\nOut of office Thursday and Friday.\n\nFollow Link For 
+ Floor Plans and Community Information: https://digitalbrochure.centex.co
+ m/view/840418/\n\n\n\nSummerlyn Model Address:\n\n511 Hoot Owl Lane Sout
+ h\n\nLeander\, Tx 78641\n\n\n\nFrom: Nathan Sellars\nSent: Wednesday\, J
+ anuary 19\, 2022 10:31 AM\nTo: Yusuf Karal <yusufkaraltx@gmail.com<mailt
+ o:yusufkaraltx@gmail.com>>\nCc: Quinn Guest <Quinn.Guest@Pulte.com<mailt
+ o:Quinn.Guest@Pulte.com>>\; Ray Enriquez <Ray.Enriquez@Pulte.com<mailto:
+ Ray.Enriquez@Pulte.com>>\; Michael Fisher <Michael.Fisher@Pulte.com<mail
+ to:Michael.Fisher@Pulte.com>>\; longcreekrealty@gmail.com<mailto:longcre
+ ekrealty@gmail.com>\nSubject: 144 Prairie Falcon Way - Construction Upda
+ tes - Karal\, Yusuf\n\n\n\nHi Yusuf\,\n\n\n\nI hope this finds you well!
+   This is the construction email in-order to keep you updated on the pro
+ gress of your home. I can’t guarantee weekly updates as the build enviro
+ nment we are currently under take A LOT more time then previous years. H
+ owever\, if you have questions this is the email to ask them!\n\n\n\nI’m
+  about to be on paternity leave due to the birth of my son but this emai
+ l can assist while I’m out! I’m not allowed to work at all while I’m on 
+ this leave. I will be returning to the office in early February to pick 
+ up where we left off.\n\n\n\nI look forward to speaking when I return.\n
+ \n\n\n\n\nBest Regards\,\n\n\n\n[cid:image001.png@01D82586.161C7A00]\n\n
+ Nathan Sellars\n\nSales Consultant : : Summerlyn\n\nOffice (512) 532-344
+ 1 : : Cell (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan
+ .Sellars@pulte.com>\n\nOut of office Thursday and Friday.\n\nFollow Link
+  For Floor Plans and Community Information: https://digitalbrochure.cent
+ ex.com/view/840418/\n\n\n\nSummerlyn Model Address:\n\n511 Hoot Owl Lane
+  South\n\nLeander\, Tx 78641\n\n\n\n________________________________\n\n
+ CONFIDENTIALITY NOTICE: This email may contain confidential and privileg
+ ed material for the sole use of the intended recipient(s). Any review\, 
+ use\, distribution or disclosure by others is strictly prohibited. If yo
+ u have received this communication in error\, please notify the sender i
+ mmediately by email and delete the message and any file attachments from
+  your computer. Thank you.\n\n________________________________\n\nCONFID
+ ENTIALITY NOTICE: This email may contain confidential and privileged mat
+ erial for the sole use of the intended recipient(s). Any review\, use\, 
+ distribution or disclosure by others is strictly prohibited. If you have
+  received this communication in error\, please notify the sender immedia
+ tely by email and delete the message and any file attachments from your 
+ computer. Thank you.\n
+BEGIN:VALARM
+X-WR-ALARMUID:5291BB15-E6C0-4EC1-AEF2-5738665ABBD3
+UID:5291BB15-E6C0-4EC1-AEF2-5738665ABBD3
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "L
+ ocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, 
+ "LocationUri" : "" } ]
+SUMMARY:Horizon Lake - Selected Bidder  - Lot 16/O - 733 Leeward Pass - 
+ 45' Lots - $275\,000 bid - Bordeaux A
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:339884006
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Demeriz McDonald":mailto:dmcdonald@taylormorrison.com
+TRANSP:OPAQUE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_NmVlMmRlYTYtNDYzNi00ZDYyLWJhODYtMDg1NGZhZDZmZmRk%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%221c080527-afd2-4e35-863d-107b3fd3bb08%22
+ %2c%22Oid%22%3a%22c0f277cb-31d3-419a-bb27-8e1da04528f6%22%7d
+UID:040000008200E00074C5B7101A82E00800000000A0A0E1A5482ED801000000000000
+ 000010000000F043BC396312F041B51F622F1C0D6DAD
+DTSTART;TZID=America/Chicago:20220304T150000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:dmcdonald@taylormorrison.com\
+ ;gruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_NmVlMmRlYTYtNDYzNi0
+ 0ZDYyLWJhODYtMDg1NGZhZDZmZmRk-thread.v2!c0f277cb31d3419abb278e1da04528f6
+ !1c080527afd24e35863d107b3fd3bb08
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+ATTENDEE;CN="Elizabeth St.Clair";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION
+ ;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:estclair@taylormorrison.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT;X-
+ NUM-GUESTS=0:mailto:nalcaci2005@gmail.com
+STATUS:CONFIRMED
+DTSTAMP:20221130T185722Z
+LAST-MODIFIED:20221130T185722Z
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NmVlMmRlYTYtNDYzNi00
+ ZDYyLWJhODYtMDg1NGZhZDZmZmRk@thread.v2"\,"private":true\,"type":0\,"mid"
+ :0\,"rid":0\,"uid":null}
+CREATED:20220302T220248Z
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.micro
+ soft.com/teams/1c080527-afd2-4e35-863d-107b3fd3bb08/c0f277cb-31d3-419a-b
+ b27-8e1da04528f6/19_meeting_NmVlMmRlYTYtNDYzNi00ZDYyLWJhODYtMDg1NGZhZDZm
+ ZmRk@thread.v2/0
+DTEND;TZID=America/Chicago:20220304T160000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n__________________________________________________________
+ ______________________\nMicrosoft Teams meeting\nJoin on your computer o
+ r mobile app\nClick here to join the meeting<https://teams.microsoft.com
+ /l/meetup-join/19%3ameeting_NmVlMmRlYTYtNDYzNi00ZDYyLWJhODYtMDg1NGZhZDZm
+ ZmRk%40thread.v2/0?context=%7b%22Tid%22%3a%221c080527-afd2-4e35-863d-107
+ b3fd3bb08%22%2c%22Oid%22%3a%22c0f277cb-31d3-419a-bb27-8e1da04528f6%22%7d
+ >\nOr call in (audio only)\n+1 469-551-3362\,\,562269865#<tel:+146955133
+ 62\,\,562269865#>   United States\, Dallas\nPhone Conference ID: 562 269
+  865#\nFind a local number<https://dialin.teams.microsoft.com/a37a5db2-6
+ ccf-49c2-b182-e93c3cd9e304?id=562269865> | Reset PIN<https://mysettings.
+ lync.com/pstnconferencing>\nLearn More<https://aka.ms/JoinTeamsMeeting> 
+ | Meeting options<https://teams.microsoft.com/meetingOptions/?organizerI
+ d=c0f277cb-31d3-419a-bb27-8e1da04528f6&tenantId=1c080527-afd2-4e35-863d-
+ 107b3fd3bb08&threadId=19_meeting_NmVlMmRlYTYtNDYzNi00ZDYyLWJhODYtMDg1NGZ
+ hZDZmZmRk@thread.v2&messageId=0&language=en-US>\n_______________________
+ _________________________________________________________\n\n
+BEGIN:VALARM
+X-WR-ALARMUID:A8CE4193-AA26-4F28-BE8D-430A51C86F6F
+UID:A8CE4193-AA26-4F28-BE8D-430A51C86F6F
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220304T205105Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:FFD46571-C88A-4142-B6B9-693177AA7CF6
+UID:FFD46571-C88A-4142-B6B9-693177AA7CF6
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220304T205105Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "L
+ ocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, 
+ "LocationUri" : "" } ]
+SUMMARY:Winning Bid-Horizon Lake-E-24 Rybrook Structural Options
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:516241382
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Robert Jones":mailto:robert.jones@pulte.com
+TRANSP:OPAQUE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_YmVmZjk3YzktODgwNy00M2NlLTgzZDUtMjVlNWMwYjg5NzMy%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%221a9277a3-ef66-41f6-96b5-c5390ee468a7%22
+ %2c%22Oid%22%3a%2283be73fe-82b2-4777-ab8e-b62b28b354d2%22%7d
+UID:040000008200E00074C5B7101A82E00800000000304211B39630D801000000000000
+ 00001000000091678BC243430041BA210F537DBFDDD4
+DTSTART;TZID=America/Chicago:20220305T140000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:Robert.Jones@Pulte.com\;gruu\
+ ;opaque=app:conf:focus:id:teams:2:0!19:meeting_YmVmZjk3YzktODgwNy00M2NlL
+ TgzZDUtMjVlNWMwYjg5NzMy-thread.v2!83be73fe82b24777ab8eb62b28b354d2!1a927
+ 7a3ef6641f696b5c5390ee468a7
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+ATTENDEE;CN="necatiy@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:necatiy@gmail.com
+ATTENDEE;CN="necatiyilmaz@hotmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-
+ ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:necatiyilmaz@hotmail.c
+ om
+STATUS:CONFIRMED
+DTSTAMP:20220305T194225Z
+LAST-MODIFIED:20220305T194225Z
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YmVmZjk3YzktODgwNy00
+ M2NlLTgzZDUtMjVlNWMwYjg5NzMy@thread.v2"\,"private":true\,"type":0\,"mid"
+ :0\,"rid":0\,"uid":null}
+CREATED:20220305T194218Z
+X-MICROSOFT-CDO-INSTTYPE:0
+DTEND;TZID=America/Chicago:20220305T150000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.micro
+ soft.com/teams/1a9277a3-ef66-41f6-96b5-c5390ee468a7/83be73fe-82b2-4777-a
+ b8e-b62b28b354d2/19_meeting_YmVmZjk3YzktODgwNy00M2NlLTgzZDUtMjVlNWMwYjg5
+ NzMy@thread.v2/0
+DESCRIPTION:\n__________________________________________________________
+ ______________________\nMicrosoft Teams meeting\nJoin on your computer o
+ r mobile app\nClick here to join the meeting<https://teams.microsoft.com
+ /l/meetup-join/19%3ameeting_YmVmZjk3YzktODgwNy00M2NlLTgzZDUtMjVlNWMwYjg5
+ NzMy%40thread.v2/0?context=%7b%22Tid%22%3a%221a9277a3-ef66-41f6-96b5-c53
+ 90ee468a7%22%2c%22Oid%22%3a%2283be73fe-82b2-4777-ab8e-b62b28b354d2%22%7d
+ >\nOr call in (audio only)\n+1 469-208-1516\,\,611952871#<tel:+146920815
+ 16\,\,611952871#>   United States\, Dallas\n(877) 326-5634\,\,611952871#
+ <tel:8773265634\,\,611952871#>   United States (Toll-free)\nPhone Confer
+ ence ID: 611 952 871#\nFind a local number<https://dialin.teams.microsof
+ t.com/5ae90daf-f906-4e67-b9a6-ed4752839574?id=611952871> | Reset PIN<htt
+ ps://mysettings.lync.com/pstnconferencing>\nLearn More<https://aka.ms/Jo
+ inTeamsMeeting> | Meeting options<https://teams.microsoft.com/meetingOpt
+ ions/?organizerId=83be73fe-82b2-4777-ab8e-b62b28b354d2&tenantId=1a9277a3
+ -ef66-41f6-96b5-c5390ee468a7&threadId=19_meeting_YmVmZjk3YzktODgwNy00M2N
+ lLTgzZDUtMjVlNWMwYjg5NzMy@thread.v2&messageId=0&language=en-US>\n_______
+ ________________________________________________________________________
+ _\n\n\n________________________________\n\nCONFIDENTIALITY NOTICE: This 
+ email may contain confidential and privileged material for the sole use 
+ of the intended recipient(s). Any review\, use\, distribution or disclos
+ ure by others is strictly prohibited. If you have received this communic
+ ation in error\, please notify the sender immediately by email and delet
+ e the message and any file attachments from your computer. Thank you.\n
+BEGIN:VALARM
+X-WR-ALARMUID:CBDDE521-342F-48C0-A988-A7D0B6D26111
+UID:CBDDE521-342F-48C0-A988-A7D0B6D26111
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "144 prairie falcon"\, "Locati
+ onAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : true\, "Locat
+ ionUri" : "" } ]
+SUMMARY:144 Prairie Falcon Way - Pre-close walk - Karal\, Yusuf
+X-MICROSOFT-CDO-OWNERAPPTID:913655782
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Ray Enriquez":mailto:ray.enriquez@pulte.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000060BD11649255D801000000000000
+ 000010000000FA7912B70C2A0E4B90A1A7AAB85343BC
+DTSTART;TZID=America/Chicago:20220422T113000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:144 prairie falcon
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20220422T164649Z
+LAST-MODIFIED:20220422T164649Z
+ATTENDEE;CN="Branden Underwood";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;
+ ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:branden.underwood@pulte.com
+ATTENDEE;CN="Justin Brennan";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:justin.brennan@pulte.com
+ATTENDEE;CN="Mark Powers";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=O
+ PT-PARTICIPANT;X-NUM-GUESTS=0:mailto:mark.powers@pulte.com
+ATTENDEE;CN="Michael Fisher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:michael.fisher@pulte.com
+ATTENDEE;CN="Nathan Sellars";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:nathan.sellars@pulte.com
+ATTENDEE;CN="Yusuf Karal";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:yusufkaraltx@gmail.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20220421T201518Z
+DTEND;TZID=America/Chicago:20220422T133000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n\n_____________________________________________\nFrom: Yus
+ uf Karal <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gmail.com>>\nSent: 
+ Thursday\, April 21\, 2022 2:20 PM\nTo: Ray Enriquez <Ray.Enriquez@pulte
+ .com<mailto:Ray.Enriquez@pulte.com>>\nCc: Nathan Sellars <Nathan.Sellars
+ @pulte.com<mailto:Nathan.Sellars@pulte.com>>\; Quinn Guest <Quinn.Guest@
+ pulte.com<mailto:Quinn.Guest@pulte.com>>\; Michael Fisher <Michael.Fishe
+ r@pulte.com<mailto:Michael.Fisher@pulte.com>>\; longcreekrealty@gmail.co
+ m<mailto:longcreekrealty@gmail.com>\nSubject: Re: 144 Prairie Falcon Way
+  - Construction Updates - Karal\, Yusuf\n\nHi Ray\,\n\nI haven't receive
+ d a calendar invite to do a pre-close walk. As I stated in the previous 
+ email\, I will be there at 11.30am on Friday (tomorrow).\nPlease let me 
+ know if your plan has changed.\n\nBest\,\nYusuf\n\nOn Tue\, Apr 19\, 202
+ 2 at 12:03 PM Yusuf Karal <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gm
+ ail.com>> wrote:\nHi Ray\,\n\nI will be available at 11.30 am on Friday.
+ \n\nThanks\n\nOn Tue\, Apr 19\, 2022\, 10:05 AM Ray Enriquez <Ray.Enriqu
+ ez@pulte.com<mailto:Ray.Enriquez@pulte.com>> wrote:\nGood morning Yusuf\
+ , this is Ray Enriquez\, your construction manager. I just wanted to rea
+ ch out to discuss your pre-close walk. Currently\, I would like to see i
+ f you would be available Friday between 11am-2pm. We can meet at the hom
+ e and have a short meeting discussing warranty\, etc and proceed to walk
+  your home. From here we can identify and record items needing attention
+ . Although this meeting can start anytime between 11am and 2 pm\, it cou
+ ld take up to 2 hours to complete. Please let me know when you can be av
+ ailable Friday and I will respond with a calendar invite scheduling this
+ .  . We will  need to meet one more time prior to closing to sign off on
+  these items found during Fridays meeting. This is something we do the d
+ ay before closing. So I am looking at 4/28 for sign off. We can discuss 
+ the details Friday. I just wanted to prepare your for our remaining appo
+ intments to complete construction.\nThank you\,\nRay Enriquez\n\nFrom: N
+ athan Sellars <Nathan.Sellars@Pulte.com<mailto:Nathan.Sellars@Pulte.com>
+ >\nSent: Wednesday\, April 6\, 2022 3:18 PM\nTo: Yusuf Karal <yusufkaral
+ tx@gmail.com<mailto:yusufkaraltx@gmail.com>>\; Quinn Guest <Quinn.Guest@
+ Pulte.com<mailto:Quinn.Guest@Pulte.com>>\nCc: Ray Enriquez <Ray.Enriquez
+ @Pulte.com<mailto:Ray.Enriquez@Pulte.com>>\; Michael Fisher <Michael.Fis
+ her@Pulte.com<mailto:Michael.Fisher@Pulte.com>>\; longcreekrealty@gmail.
+ com<mailto:longcreekrealty@gmail.com>\nSubject: RE: 144 Prairie Falcon W
+ ay - Construction Updates - Karal\, Yusuf\nImportance: High\n\nHi Yusuf\
+ ,\n\nI hope this finds you well and enjoying your week. Things have been
+  moving out here and we are excited to let you know the progress! Please
+  see below for you current bi-weekly update. Please reach out to your fi
+ eld manager with any additional of more specific questions by hitting Re
+ ply All.\n\nWeekly Construction Updates:\n\n  *   Electrical and plumbin
+ g trim is completed.\n  *   Power to be turned on by the end of the week
+ . And the Field manger inspections beings at that point.\n  *   Vinyl fl
+ ooring is completed with carpet to come later this week\nMoving into Nex
+ t Week:\n\n  *   Start the FM inspections.\n  *   Cleaning up remaining 
+ items for closing.\n\nWe would also like to get your celebration schedul
+ ed with Ray as your closing is coming fast. We are looking at 4/22 betwe
+ en 11am and 2:00pm. This is required to get everything corrected prior t
+ o closing so please take a look at your schedule so we can get this on t
+ he books.\n\n\n\nBest Regards\,\n\n\nNathan Sellars\nSales Consultant : 
+ : Summerlyn\nOffice (512) 532-3441 : : Cell (713) 204-0571\nEmail: Natha
+ n.Sellars@pulte.com<mailto:Nathan.Sellars@pulte.com>\nOut of office Thur
+ sday and Friday.\nFollow Link For Floor Plans and Community Information:
+  CTX-Summerlyn-Flipbook-A-0720-PROOF.pdf (centex.com)<https://digitalbro
+ chure.centex.com/view/840418/>\n\nSummerlyn Model Address:\n511 Hoot Owl
+  Lane South\nLeander\, Tx 78641\n\nFrom: Nathan Sellars\nSent: Wednesday
+ \, March 23\, 2022 3:35 PM\nTo: Yusuf Karal <yusufkaraltx@gmail.com<mail
+ to:yusufkaraltx@gmail.com>>\; Quinn Guest <Quinn.Guest@Pulte.com<mailto:
+ Quinn.Guest@Pulte.com>>\nCc: Ray Enriquez <Ray.Enriquez@Pulte.com<mailto
+ :Ray.Enriquez@Pulte.com>>\; Michael Fisher <Michael.Fisher@Pulte.com<mai
+ lto:Michael.Fisher@Pulte.com>>\; longcreekrealty@gmail.com<mailto:longcr
+ eekrealty@gmail.com>\nSubject: RE: 144 Prairie Falcon Way - Construction
+  Updates - Karal\, Yusuf\n\nHi Yusuf\,\n\nI hope this finds you well and
+  enjoying your week. Things have been moving out here and we are excited
+  to let you know the progress! Please see below for you current bi-weekl
+ y update. Please reach out to your field manager with any additional of 
+ more specific questions by hitting Reply All.\n\nWeekly Construction Upd
+ ates:\n\n  *   Exterior siding is completed\n  *   Interior paint starte
+ d today\n  *   Trim and cabinets have been installed\nMoving into Next W
+ eek:\n\n  *   A/C set out to start\n  *   Tile surround\n  *   Vinyl Flo
+ oring install starting late next week\n\n\n\n\nBest Regards\,\n\n\nNatha
+ n Sellars\nSales Consultant : : Summerlyn\nOffice (512) 532-3441 : : Cel
+ l (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@
+ pulte.com>\nOut of office Thursday and Friday.\nFollow Link For Floor Pl
+ ans and Community Information: CTX-Summerlyn-Flipbook-A-0720-PROOF.pdf (
+ centex.com)<https://digitalbrochure.centex.com/view/840418/>\n\nSummerly
+ n Model Address:\n511 Hoot Owl Lane South\nLeander\, Tx 78641\n\nFrom: N
+ athan Sellars\nSent: Wednesday\, March 9\, 2022 3:28 PM\nTo: Yusuf Karal
+  <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gmail.com>>\; Quinn Guest <
+ Quinn.Guest@Pulte.com<mailto:Quinn.Guest@Pulte.com>>\nCc: Ray Enriquez <
+ Ray.Enriquez@Pulte.com<mailto:Ray.Enriquez@Pulte.com>>\; Michael Fisher 
+ <Michael.Fisher@Pulte.com<mailto:Michael.Fisher@Pulte.com>>\; longcreekr
+ ealty@gmail.com<mailto:longcreekrealty@gmail.com>\nSubject: RE: 144 Prai
+ rie Falcon Way - Construction Updates - Karal\, Yusuf\n\nHi Yusuf\,\n\nI
+  hope this finds you well and enjoying your week. Things have been movin
+ g out here and we are excited to let you know the progress! Please see b
+ elow for you current bi-weekly update. Please reach out to your field ma
+ nager with any additional of more specific questions by hitting Reply Al
+ l.\n\nWeekly Construction Updates:\n\n  *   Drywall is completed and we 
+ are moving towards texturing the home\n  *   Trim and cabinets to delive
+ r late this week early next week\nMoving into Next Week:\n\n  *   Once t
+ rim and cabinets are installed interior paint to start\n  *   A/C set ou
+ t after paint\n\n\n\n\n\n\nBest Regards\,\n\n\nNathan Sellars\nSales Con
+ sultant : : Summerlyn\nOffice (512) 532-3441 : : Cell (713) 204-0571\nEm
+ ail: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@pulte.com>\nOut of o
+ ffice Thursday and Friday.\nFollow Link For Floor Plans and Community In
+ formation: https://digitalbrochure.centex.com/view/840418/\n\nSummerlyn 
+ Model Address:\n511 Hoot Owl Lane South\nLeander\, Tx 78641\n\nFrom: Yus
+ uf Karal <yusufkaraltx@gmail.com<mailto:yusufkaraltx@gmail.com>>\nSent: 
+ Monday\, February 21\, 2022 8:24 AM\nTo: Quinn Guest <Quinn.Guest@pulte.
+ com<mailto:Quinn.Guest@pulte.com>>\nCc: Nathan Sellars <Nathan.Sellars@p
+ ulte.com<mailto:Nathan.Sellars@pulte.com>>\; Ray Enriquez <Ray.Enriquez@
+ pulte.com<mailto:Ray.Enriquez@pulte.com>>\; Michael Fisher <Michael.Fish
+ er@pulte.com<mailto:Michael.Fisher@pulte.com>>\; longcreekrealty@gmail.c
+ om<mailto:longcreekrealty@gmail.com>\nSubject: Re: 144 Prairie Falcon Wa
+ y - Construction Updates - Karal\, Yusuf\n\nGood morning Quinn\,\n\nSoun
+ ds like a plan. I will be there tomorrow at 10.\n\nThanks\n\nOn Mon\, Fe
+ b 21\, 2022\, 8:21 AM Quinn Guest <Quinn.Guest@pulte.com<mailto:Quinn.Gu
+ est@pulte.com>> wrote:\n Good morning Yusuf\,\n\nI am currently only ava
+ ilable to meet at 10 tomorrow Tuesday 2/22. If this time works for tomor
+ row\, please let me know and I can send out the calendar invitation. The
+  meeting is at the house and typically takes about 1 hour. Have a great 
+ day.\n\nThank you\,\n\n\n\nQuinn Guest\nConstruction Manager: Central Te
+ xas Division\n9401 Amberglen Blvd. Bldg I\, Suite 150\nQuinn.Guest@Pulte
+ .com<mailto:Quinn.Guest@Pulte.com>\n________________________________\nFr
+ om: Nathan Sellars <Nathan.Sellars@Pulte.com<mailto:Nathan.Sellars@Pulte
+ .com>>\nSent:
+BEGIN:VALARM
+X-WR-ALARMUID:7581884C-180D-46D1-AB22-DF895D13292A
+UID:7581884C-180D-46D1-AB22-DF895D13292A
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220422T164647Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:DEA65AE2-E341-4474-AA3C-04811FCC9966
+UID:DEA65AE2-E341-4474-AA3C-04811FCC9966
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220422T164647Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;TZID=America/Chicago:20220429T163000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="Unknown Organizer":mailto:unknownorganizer@calendar.google
+ .com
+UID:7kukuqrfedlm2f9tqg8iijb5opc5ura86jb7io1mqktml5o98gkni7pnn0ujoln88pr0
+DTSTAMP:20220425T182342Z
+LOCATION:Cedar Park\, Texas\, United States\, 78613
+DESCRIPTION:To see detailed information for automatically created events
+  like this one\, use the official Google Calendar app. https://g.co/cale
+ ndar\n\nThis event was created from an email you received in Gmail. http
+ s://mail.google.com/mail?extsrc=cal&plid=ACUX6DMoa9sMI6wjJWRXknUlEGO9Z6h
+ pV3hHn-c\n
+STATUS:CONFIRMED
+SEQUENCE:0
+CLASS:PRIVATE
+SUMMARY:NEW SB Credit Card
+LAST-MODIFIED:20220425T182342Z
+DTSTART;TZID=America/Chicago:20220429T153000
+CREATED:20220425T182342Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:8621599B-7A57-4B68-9D25-01B9BE609E4F
+UID:8621599B-7A57-4B68-9D25-01B9BE609E4F
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20220517T183000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="brett@sunroomrentals.com":mailto:brett@sunroomrentals.com
+UID:4me939jbshdsmnhannj50rp6fs@google.com
+DTSTAMP:20220517T230301Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Abdullah / Sunroom Leasing Sync
+LAST-MODIFIED:20220517T230301Z
+DTSTART;TZID=America/Chicago:20220517T180000
+CREATED:20220516T214905Z
+ATTENDEE;CN="brett@sunroomrentals.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPT
+ ED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:brett@sunroomrentals.com
+ATTENDEE;CN="cody@sunroomrentals.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-A
+ CTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:cody@sunroomrentals.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:4DD9B7B2-7D03-45CE-A485-6DC701FE6D08
+UID:4DD9B7B2-7D03-45CE-A485-6DC701FE6D08
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220517T230300Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:DF217C23-A488-4F67-B1D6-588FF7948DAF
+UID:DF217C23-A488-4F67-B1D6-588FF7948DAF
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220517T230300Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"1(949)880-0406"\,"LocationAnnotat
+ ion":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"Loca
+ tionState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationF
+ ullAddress":""}]
+SUMMARY:Abdullah Uzundere Zillow Premier Agent Overview
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2120613812
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Jamie Dufault":mailto:jamiedu@zillowgroup.com
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:1(949)880-0406
+UID:040000008200E00074C5B7101A82E00800000000B40A3E6A0C75D801000000000000
+ 00001000000092B790EFD9A18F40BFF44B1461F1CABC
+DTSTART;TZID=America/Los_Angeles:20220531T144500
+SEQUENCE:0
+X-MICROSOFT-EVENTPROPERTIESTODELETE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:1(949)880-0406
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20220531T214610Z
+LAST-MODIFIED:20220531T163541Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;EMAIL="longcre
+ ekrealty@gmail.com";PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=
+ 0:mailto:longcreekrealty@gmail.com
+CREATED:20220531T163519Z
+X-MICROSOFT-LOCATIONSOURCE:None
+DTEND;TZID=America/Los_Angeles:20220531T150000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Abdullah\,\n\nExcited to talk opportunities with you! Please
+  be in front of a computer if possible for an overview of Zillow Premier
+  Agent's Live Connections in your market area.\n
+BEGIN:VALARM
+X-WR-ALARMUID:369EF32F-39EA-4A48-8AAA-8BC9E21C970F
+UID:369EF32F-39EA-4A48-8AAA-8BC9E21C970F
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220531T214610Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:2F5A8193-B0AB-48A3-9082-442B7B72DA09
+UID:2F5A8193-B0AB-48A3-9082-442B7B72DA09
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220531T214610Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[]
+SUMMARY:Premier Agent
+X-MICROSOFT-CDO-OWNERAPPTID:1514100710
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Jack Beach":mailto:jackbea@zillowgroup.com
+TRANSP:TRANSPARENT
+UID:040000008200E00074C5B7101A82E00800000000F0F2B7650575D801000000000000
+ 00001000000050AF523AF1E9F94F97529DF5B5480EE4
+DTSTART;TZID=America/Los_Angeles:20220601T150000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20220531T235448Z
+LAST-MODIFIED:20220601T211338Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;EMAIL="longcre
+ ekrealty@gmail.com";PARTSTAT=DECLINED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=
+ 0:mailto:longcreekrealty@gmail.com
+CREATED:20220531T224504Z
+DTEND;TZID=America/Los_Angeles:20220601T153000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n
+BEGIN:VALARM
+X-WR-ALARMUID:9B46D3E4-1EFB-43AE-874E-E5E4B233CA83
+UID:9B46D3E4-1EFB-43AE-874E-E5E4B233CA83
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "172 Praire falcon"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : true\, "Locati
+ onUri" : "" } ]
+SUMMARY:172 Prairie Falcon Way - Celebration!!
+X-MICROSOFT-CDO-OWNERAPPTID:-1719506970
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Mark Powers":mailto:mark.powers@pulte.com
+TRANSP:OPAQUE
+ATTACH;VALUE=URI:?view=att&th=181250116a812640&attid=0.1&disp=attd&zw
+DTSTART;TZID=America/Chicago:20220621T110000
+UID:040000008200E00074C5B7101A82E0080000000030DFDF866676D801000000000000
+ 000010000000E0B7D753EFA15D4A87334BA8342082C9
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:172 Praire falcon
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20220602T152040Z
+LAST-MODIFIED:20220602T152040Z
+ATTENDEE;CN="Branden Underwood";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;
+ ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:branden.underwood@pulte.com
+ATTENDEE;CN="Hakan Kahya";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:hakankahyatx@gmail.com
+ATTENDEE;CN="Michael Fisher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:michael.fisher@pulte.com
+ATTENDEE;CN="Nathan Sellars";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:nathan.sellars@pulte.com
+ATTENDEE;CN="Ray Enriquez";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:ray.enriquez@pulte.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20220602T152024Z
+DTEND;TZID=America/Chicago:20220621T123000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Good morning all\, this is the official invite for Tuesday a
+ t 11am. Like Nathan mentioned if you decide to get a third party have it
+  done Friday the 17th or Monday the 20th ( house will be open from 8am-5
+ pm). Keep in mind the house is under construction until closing so there
+  will be pending items on the report.\n\nI look forward to seeing you th
+ en\,\n\nMark Powers.\n\n_____________________________________________\nF
+ rom: Hakan Kahya <hakankahyatx@gmail.com<mailto:hakankahyatx@gmail.com>>
+ \nSent: Thursday\, June 2\, 2022 9:48 AM\nTo: Nathan Sellars <Nathan.Sel
+ lars@pulte.com<mailto:Nathan.Sellars@pulte.com>>\nCc: Branden Underwood 
+ <Branden.Underwood@pulte.com<mailto:Branden.Underwood@pulte.com>>\; Mark
+  Powers <Mark.Powers@pulte.com<mailto:Mark.Powers@pulte.com>>\; Michael 
+ Fisher <Michael.Fisher@pulte.com<mailto:Michael.Fisher@pulte.com>>\; Qui
+ nn Guest <Quinn.Guest@pulte.com<mailto:Quinn.Guest@pulte.com>>\; Ray Enr
+ iquez <Ray.Enriquez@pulte.com<mailto:Ray.Enriquez@pulte.com>>\; longcree
+ krealty@gmail.com<mailto:longcreekrealty@gmail.com>\nSubject: Re: 172 Pr
+ airie Falcon Way - Construction Updates - Kahya\, Hakan\n\n\nExternal Se
+ nder\n\nHi Nathan\,\n\nThank you for the update\, 11am is good for me\, 
+ I look forward to meeting with you..\n\nThank you for your time and effo
+ rt..\n\nBest\n\n\n\n\n\n\nOn Wed\, Jun 1\, 2022 at 2:39 PM Nathan Sellar
+ s <Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@pulte.com>> wrote:\nHi
+  Hakan\,\n\nYour closing has been confirmed by the construction team! Yo
+ u should be getting a call by the end of the week to set the time on the
+  28th of this month.\nWeekly Construction Updates:\n\n  *   Electric and
+  HVAC Trim has been installed\n  *   Cabinets and EVP flooring is comple
+ ted\n  *   Permanent Power and City inspection early next week.\n\nMovin
+ g into Next Week:\n\n  *   Plumbing trim to be installed next week.\n  *
+    Start the Final walk-throughs by the 3rd parties and construction tea
+ m.\n\n\nNow that we have a closing date\, we need to look at setting you
+ r celebration up on the 21st of June between 10am – 2:00pm. Mark will be
+  walking you through the home. Please respond and let us know a time tha
+ t would work for you. If you plan on conducting a 3rd party inspection t
+ his would need to be completed before the 21th. You can coordinate that 
+ with Mark as well.\n\n\n\nBest Regards\,\n\n[cid:image001.png@01D87666.8
+ 78DD270]\nNathan Sellars\nSales Consultant : : Summerlyn\nOffice (512) 5
+ 32-3441 : : Cell (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:
+ Nathan.Sellars@pulte.com>\nOut of office Thursday and Friday.\nFollow Li
+ nk For Floor Plans and Community Information: CTX-Summerlyn-Flipbook-A-0
+ 720-PROOF.pdf (centex.com)<https://digitalbrochure.centex.com/view/84041
+ 8/>\n\nSummerlyn Model Address:\n511 Hoot Owl Lane South<https://urldefe
+ nse.com/v3/__https:/www.google.com/maps/search/511*Hoot*Owl*Lane*South**
+ A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!Bws4rt
+ Y!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOP
+ cu5y5z6fsoKSwscG4$>\nLeander\, Tx 78641<https://urldefense.com/v3/__http
+ s:/www.google.com/maps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\,*
+ Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gV
+ lA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4
+ $>\n\nFrom: Nathan Sellars\nSent: Wednesday\, May 18\, 2022 1:26 PM\nTo:
+  'Hakan Kahya' <hakankahyatx@gmail.com<mailto:hakankahyatx@gmail.com>>\;
+  longcreekrealty@gmail.com<mailto:longcreekrealty@gmail.com>\nCc: Quinn 
+ Guest <Quinn.Guest@Pulte.com<mailto:Quinn.Guest@Pulte.com>>\; Ray Enriqu
+ ez <Ray.Enriquez@Pulte.com<mailto:Ray.Enriquez@Pulte.com>>\; Michael Fis
+ her <Michael.Fisher@Pulte.com<mailto:Michael.Fisher@Pulte.com>>\; Brande
+ n Underwood <Branden.Underwood@Pulte.com<mailto:Branden.Underwood@Pulte.
+ com>>\; Mark Powers <Mark.Powers@Pulte.com<mailto:Mark.Powers@Pulte.com>
+ >\nSubject: RE: 172 Prairie Falcon Way<https://urldefense.com/v3/__https
+ :/www.google.com/maps/search/172*Prairie*Falcon*Way?entry=gmail&source=g
+ __\;Kysr!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0S
+ r-G-ELmzkonadpOPcu5y5z6fsonqqxSn8$> - Construction Updates - Kahya\, Hak
+ an\n\nHi Hakan\,\n\nI hope this finds you well and enjoying your week. T
+ hings have been moving out here and we are excited to let you know the p
+ rogress! Please see below for you current bi-weekly update. Please reach
+  out to your field manager with any additional of more specific question
+ s by hitting Reply All.\n\nWeekly Construction Updates:\n\n  *   Exterio
+ r Siding is complete\n  *   Cabinets and Trim Installed\n  *   Interior 
+ paint completed\n  *   Masonry completed\nMoving into Next Week:\n\n  * 
+   Electric and HVAC Trim to be installed\n  *   Flatwork (Driveway) Inst
+ alled\n  *   Flooring to be installed\n\nOnce we get the above items com
+ pleted we will be able to hit close confirm and secure your closing date
+ . Currently tracking for the end-June.\n\n\n\n\nBest Regards\,\n\n[cid:i
+ mage001.png@01D87666.878DD270]\nNathan Sellars\nSales Consultant : : Sum
+ merlyn\nOffice (512) 532-3441 : : Cell (713) 204-0571\nEmail: Nathan.Sel
+ lars@pulte.com<mailto:Nathan.Sellars@pulte.com>\nOut of office Thursday 
+ and Friday.\nFollow Link For Floor Plans and Community Information: CTX-
+ Summerlyn-Flipbook-A-0720-PROOF.pdf (centex.com)<https://digitalbrochure
+ .centex.com/view/840418/>\n\nSummerlyn Model Address:\n511 Hoot Owl Lane
+  South<https://urldefense.com/v3/__https:/www.google.com/maps/search/511
+ *Hoot*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;
+ KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7
+ Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\nLeander\, Tx 78641<https://ur
+ ldefense.com/v3/__https:/www.google.com/maps/search/511*Hoot*Owl*Lane*So
+ uth**A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!B
+ ws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkon
+ adpOPcu5y5z6fsoKSwscG4$>\n\nFrom: Nathan Sellars\nSent: Wednesday\, May 
+ 4\, 2022 4:29 PM\nTo: 'Hakan Kahya' <hakankahyatx@gmail.com<mailto:hakan
+ kahyatx@gmail.com>>\; longcreekrealty@gmail.com<mailto:longcreekrealty@g
+ mail.com>\nCc: Quinn Guest <Quinn.Guest@Pulte.com<mailto:Quinn.Guest@Pul
+ te.com>>\; Ray Enriquez <Ray.Enriquez@Pulte.com<mailto:Ray.Enriquez@Pult
+ e.com>>\; Michael Fisher <Michael.Fisher@Pulte.com<mailto:Michael.Fisher
+ @Pulte.com>>\; Branden Underwood <Branden.Underwood@Pulte.com<mailto:Bra
+ nden.Underwood@Pulte.com>>\; Mark Powers <Mark.Powers@Pulte.com<mailto:M
+ ark.Powers@Pulte.com>>\nSubject: RE: 172 Prairie Falcon Way<https://urld
+ efense.com/v3/__https:/www.google.com/maps/search/172*Prairie*Falcon*Way
+ ?entry=gmail&source=g__\;Kysr!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOp
+ xj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsonqqxSn8$> - Construction 
+ Updates - Kahya\, Hakan\n\nHi Hakan\,\n\nI hope this finds you well and 
+ enjoying your week. Things have been moving out here and we are excited 
+ to let you know the progress! Please see below for you current bi-weekly
+  update. Please reach out to your field manager with any additional of m
+ ore specific questions by hitting Reply All.\n\nWeekly Construction Upda
+ tes:\n\n  *   Finish the drywall process tomorrow.\n  *   Texture on Fri
+ day\n  *   Masonry is almost completed and the exterior in moving along 
+ perfectly.\nMoving into Next Week:\n\n  *   Cabinets to be installed alo
+ ng with trim next week.\n  *   Interior paint to follow after the above 
+ items leading us into the next update.\n\n\n\nBest Regards\,\n\n[cid:ima
+ ge001.png@01D87666.878DD270]\nNathan Sellars\nSales Consultant : : Summe
+ rlyn\nOffice (512) 532-3441 : : Cell (713) 204-0571\nEmail: Nathan.Sella
+ rs@pulte.com<mailto:Nathan.Sellars@pulte.com>\nOut of office Thursday an
+ d Friday.\nFollow Link For Floor Plans and Community Information: CTX-Su
+ mmerlyn-Flipbook-A-0720-PROOF.pdf (centex.com)<https://digitalbrochure.c
+ entex.com/view/840418/>\n\nSummerlyn Model Address:\n511 Hoot Owl Lane S
+ outh<https://urldefense.com/v3/__https:/www.google.com/maps/search/511*H
+ oot*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;Ky
+ srKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh
+ 0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\nLeander\, Tx 78641<https://urld
+ efense.com/v3/__https:/www.google.com/maps/search/511*Hoot*Owl*Lane*Sout
+ h**A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!Bws
+ 4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqBy
+BEGIN:VALARM
+X-WR-ALARMUID:39668973-D436-4833-9EE7-410172A71493
+UID:39668973-D436-4833-9EE7-410172A71493
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Your new home"\, "LocationAnn
+ otation" : ""\, "LocationSource" : 0\, "Unresolved" : true\, "LocationUr
+ i" : "" } ]
+SUMMARY:172 Prairie Falcon Sign Off
+X-MICROSOFT-CDO-OWNERAPPTID:-522426394
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Mark Powers":mailto:mark.powers@pulte.com
+TRANSP:OPAQUE
+ATTACH;VALUE=URI:?view=att&th=181aae0f4c5fc386&attid=0.1&disp=attd&zw
+DTSTART;TZID=America/Chicago:20220629T160000
+UID:040000008200E00074C5B7101A82E0080000000080BBE056D78AD801000000000000
+ 000010000000179F66391105EB47A1F03E8184F0C331
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:Your new home
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20220628T151441Z
+LAST-MODIFIED:20220628T151441Z
+ATTENDEE;CN="Branden Underwood";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;
+ ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:branden.underwood@pulte.com
+ATTENDEE;CN="Hakan Kahya";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:hakankahyatx@gmail.com
+ATTENDEE;CN="Michael Fisher";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:michael.fisher@pulte.com
+ATTENDEE;CN="Nathan Sellars";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:nathan.sellars@pulte.com
+ATTENDEE;CN="Quinn Guest";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=O
+ PT-PARTICIPANT;X-NUM-GUESTS=0:mailto:quinn.guest@pulte.com
+ATTENDEE;CN="Ray Enriquez";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:ray.enriquez@pulte.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20220628T151428Z
+DTEND;TZID=America/Chicago:20220629T163000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Good morning\, here is the official invite for sign off. See
+  you then and there Hakan.\n\nThank you\,\nMark Powers.\n\n_____________
+ ________________________________\nFrom: Hakan Kahya <hakankahyatx@gmail.
+ com<mailto:hakankahyatx@gmail.com>>\nSent: Thursday\, June 2\, 2022 9:48
+  AM\nTo: Nathan Sellars <Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@
+ pulte.com>>\nCc: Branden Underwood <Branden.Underwood@pulte.com<mailto:B
+ randen.Underwood@pulte.com>>\; Mark Powers <Mark.Powers@pulte.com<mailto
+ :Mark.Powers@pulte.com>>\; Michael Fisher <Michael.Fisher@pulte.com<mail
+ to:Michael.Fisher@pulte.com>>\; Quinn Guest <Quinn.Guest@pulte.com<mailt
+ o:Quinn.Guest@pulte.com>>\; Ray Enriquez <Ray.Enriquez@pulte.com<mailto:
+ Ray.Enriquez@pulte.com>>\; longcreekrealty@gmail.com<mailto:longcreekrea
+ lty@gmail.com>\nSubject: Re: 172 Prairie Falcon Way - Construction Updat
+ es - Kahya\, Hakan\n\n\nExternal Sender\n\nHi Nathan\,\n\nThank you for 
+ the update\, 11am is good for me\, I look forward to meeting with you..\
+ n\nThank you for your time and effort..\n\nBest\n\n\n\n\n\n\nOn Wed\, Ju
+ n 1\, 2022 at 2:39 PM Nathan Sellars <Nathan.Sellars@pulte.com<mailto:Na
+ than.Sellars@pulte.com>> wrote:\nHi Hakan\,\n\nYour closing has been con
+ firmed by the construction team! You should be getting a call by the end
+  of the week to set the time on the 28th of this month.\nWeekly Construc
+ tion Updates:\n\n  *   Electric and HVAC Trim has been installed\n  *   
+ Cabinets and EVP flooring is completed\n  *   Permanent Power and City i
+ nspection early next week.\n\nMoving into Next Week:\n\n  *   Plumbing t
+ rim to be installed next week.\n  *   Start the Final walk-throughs by t
+ he 3rd parties and construction team.\n\n\nNow that we have a closing da
+ te\, we need to look at setting your celebration up on the 21st of June 
+ between 10am – 2:00pm. Mark will be walking you through the home. Please
+  respond and let us know a time that would work for you. If you plan on 
+ conducting a 3rd party inspection this would need to be completed before
+  the 21th. You can coordinate that with Mark as well.\n\n\n\nBest Regard
+ s\,\n\n[cid:image001.png@01D88AD7.5736A3B0]\nNathan Sellars\nSales Consu
+ ltant : : Summerlyn\nOffice (512) 532-3441 : : Cell (713) 204-0571\nEmai
+ l: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@pulte.com>\nOut of off
+ ice Thursday and Friday.\nFollow Link For Floor Plans and Community Info
+ rmation: CTX-Summerlyn-Flipbook-A-0720-PROOF.pdf (centex.com)<https://di
+ gitalbrochure.centex.com/view/840418/>\n\nSummerlyn Model Address:\n511 
+ Hoot Owl Lane South<https://urldefense.com/v3/__https:/www.google.com/ma
+ ps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=gmail
+ &source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj
+ 9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\nLeander\, Tx 786
+ 41<https://urldefense.com/v3/__https:/www.google.com/maps/search/511*Hoo
+ t*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=gmail&source=g__\;Kysr
+ KyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B
+ 0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\n\nFrom: Nathan Sellars\nSent: Wed
+ nesday\, May 18\, 2022 1:26 PM\nTo: 'Hakan Kahya' <hakankahyatx@gmail.co
+ m<mailto:hakankahyatx@gmail.com>>\; longcreekrealty@gmail.com<mailto:lon
+ gcreekrealty@gmail.com>\nCc: Quinn Guest <Quinn.Guest@Pulte.com<mailto:Q
+ uinn.Guest@Pulte.com>>\; Ray Enriquez <Ray.Enriquez@Pulte.com<mailto:Ray
+ .Enriquez@Pulte.com>>\; Michael Fisher <Michael.Fisher@Pulte.com<mailto:
+ Michael.Fisher@Pulte.com>>\; Branden Underwood <Branden.Underwood@Pulte.
+ com<mailto:Branden.Underwood@Pulte.com>>\; Mark Powers <Mark.Powers@Pult
+ e.com<mailto:Mark.Powers@Pulte.com>>\nSubject: RE: 172 Prairie Falcon Wa
+ y<https://urldefense.com/v3/__https:/www.google.com/maps/search/172*Prai
+ rie*Falcon*Way?entry=gmail&source=g__\;Kysr!!Bws4rtY!nUCAlosK2Jx47gVlA6n
+ NZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsonqqxSn8$> -
+  Construction Updates - Kahya\, Hakan\n\nHi Hakan\,\n\nI hope this finds
+  you well and enjoying your week. Things have been moving out here and w
+ e are excited to let you know the progress! Please see below for you cur
+ rent bi-weekly update. Please reach out to your field manager with any a
+ dditional of more specific questions by hitting Reply All.\n\nWeekly Con
+ struction Updates:\n\n  *   Exterior Siding is complete\n  *   Cabinets 
+ and Trim Installed\n  *   Interior paint completed\n  *   Masonry comple
+ ted\nMoving into Next Week:\n\n  *   Electric and HVAC Trim to be instal
+ led\n  *   Flatwork (Driveway) Installed\n  *   Flooring to be installed
+ \n\nOnce we get the above items completed we will be able to hit close c
+ onfirm and secure your closing date. Currently tracking for the end-June
+ .\n\n\n\n\nBest Regards\,\n\n[cid:image001.png@01D88AD7.5736A3B0]\nNatha
+ n Sellars\nSales Consultant : : Summerlyn\nOffice (512) 532-3441 : : Cel
+ l (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@
+ pulte.com>\nOut of office Thursday and Friday.\nFollow Link For Floor Pl
+ ans and Community Information: CTX-Summerlyn-Flipbook-A-0720-PROOF.pdf (
+ centex.com)<https://digitalbrochure.centex.com/view/840418/>\n\nSummerly
+ n Model Address:\n511 Hoot Owl Lane South<https://urldefense.com/v3/__ht
+ tps:/www.google.com/maps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\
+ ,*Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47
+ gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwsc
+ G4$>\nLeander\, Tx 78641<https://urldefense.com/v3/__https:/www.google.c
+ om/maps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=
+ gmail&source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQ
+ dOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\n\nFrom: Nat
+ han Sellars\nSent: Wednesday\, May 4\, 2022 4:29 PM\nTo: 'Hakan Kahya' <
+ hakankahyatx@gmail.com<mailto:hakankahyatx@gmail.com>>\; longcreekrealty
+ @gmail.com<mailto:longcreekrealty@gmail.com>\nCc: Quinn Guest <Quinn.Gue
+ st@Pulte.com<mailto:Quinn.Guest@Pulte.com>>\; Ray Enriquez <Ray.Enriquez
+ @Pulte.com<mailto:Ray.Enriquez@Pulte.com>>\; Michael Fisher <Michael.Fis
+ her@Pulte.com<mailto:Michael.Fisher@Pulte.com>>\; Branden Underwood <Bra
+ nden.Underwood@Pulte.com<mailto:Branden.Underwood@Pulte.com>>\; Mark Pow
+ ers <Mark.Powers@Pulte.com<mailto:Mark.Powers@Pulte.com>>\nSubject: RE: 
+ 172 Prairie Falcon Way<https://urldefense.com/v3/__https:/www.google.com
+ /maps/search/172*Prairie*Falcon*Way?entry=gmail&source=g__\;Kysr!!Bws4rt
+ Y!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOP
+ cu5y5z6fsonqqxSn8$> - Construction Updates - Kahya\, Hakan\n\nHi Hakan\,
+ \n\nI hope this finds you well and enjoying your week. Things have been 
+ moving out here and we are excited to let you know the progress! Please 
+ see below for you current bi-weekly update. Please reach out to your fie
+ ld manager with any additional of more specific questions by hitting Rep
+ ly All.\n\nWeekly Construction Updates:\n\n  *   Finish the drywall proc
+ ess tomorrow.\n  *   Texture on Friday\n  *   Masonry is almost complete
+ d and the exterior in moving along perfectly.\nMoving into Next Week:\n\
+ n  *   Cabinets to be installed along with trim next week.\n  *   Interi
+ or paint to follow after the above items leading us into the next update
+ .\n\n\n\nBest Regards\,\n\n[cid:image001.png@01D88AD7.5736A3B0]\nNathan 
+ Sellars\nSales Consultant : : Summerlyn\nOffice (512) 532-3441 : : Cell 
+ (713) 204-0571\nEmail: Nathan.Sellars@pulte.com<mailto:Nathan.Sellars@pu
+ lte.com>\nOut of office Thursday and Friday.\nFollow Link For Floor Plan
+ s and Community Information: CTX-Summerlyn-Flipbook-A-0720-PROOF.pdf (ce
+ ntex.com)<https://digitalbrochure.centex.com/view/840418/>\n\nSummerlyn 
+ Model Address:\n511 Hoot Owl Lane South<https://urldefense.com/v3/__http
+ s:/www.google.com/maps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\,*
+ Tx*78641?entry=gmail&source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gV
+ lA6nNZ2mxoWC9xQdOpxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4
+ $>\nLeander\, Tx 78641<https://urldefense.com/v3/__https:/www.google.com
+ /maps/search/511*Hoot*Owl*Lane*South**A0D*0A*Leander\,*Tx*78641?entry=gm
+ ail&source=g__\;KysrKyslJSsrKw!!Bws4rtY!nUCAlosK2Jx47gVlA6nNZ2mxoWC9xQdO
+ pxj9HqByxWPllsm7Lh0B0Sr-G-ELmzkonadpOPcu5y5z6fsoKSwscG4$>\n\nFrom: Natha
+ n Sellars\nSent: Tuesday\, April 19\, 2022 3:40 PM\nTo: 'Hakan Kahya' <h
+ akankahyatx@gmail.com<mailto:hakankahyatx@gmail.com>>\; longcreekrealty@
+ gmail.com<mailto:longcreekrealty@gmail.com>\nCc: Qui
+BEGIN:VALARM
+X-WR-ALARMUID:867E634D-2195-4064-A2F2-077EA69EB602
+UID:867E634D-2195-4064-A2F2-077EA69EB602
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Horizon Lake by Pulte Homes"\
+ , "LocationAnnotation" : ""\, "LocationSource" : 1\, "Unresolved" : fals
+ e\, "LocationUri" : "https://www.bingapis.com/api/v6/localbusinesses/YN8
+ 73x7994142980191059624?setLang=en"\, "Latitude" : 30.5795\, "Longitude" 
+ : -97.8463\, "LocationStreet" : "421 Windward View"\, "LocationCity" : "
+ Leander"\, "LocationState" : "TX"\, "LocationCountry" : "United States"\
+ , "LocationPostalCode" : "78641"\, "LocationFullAddress" : "421 Windward
+  View\, Leander\, TX  78641" } ]
+SUMMARY:Build Quality Introduction Meeting-305 Harbors Lane
+X-MICROSOFT-CDO-OWNERAPPTID:423389158
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Robert Jones":mailto:robert.jones@pulte.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000040ADD9A20D8BD801000000000000
+ 0000100000002D5F03F0AA50B24380F8434C5D66C5D3
+DTSTART;TZID=America/Chicago:20220629T140000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:Horizon Lake by Pulte Homes (421 Windward View\, Leander\, TX  
+ 78641)
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20220628T224522Z
+LAST-MODIFIED:20220628T224522Z
+ATTENDEE;CN="Jonathan Jackson";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jonathan.jackson@pulte.com
+ATTENDEE;CN="Marjan Montalvo";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:marjan.montalvo@pulte.com
+ATTENDEE;CN="Mehmet Emrah Nalcaci";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTI
+ ON;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:nalcaci2005@gmail.com
+ATTENDEE;CN="Mukund Gajera";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE
+ =OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:mukund.gajera@pulte.com
+ATTENDEE;CN="Robert Jones";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:robert.jones@pulte.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+ATTENDEE;CN="necatiy@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:necatiy@gmail.com
+CREATED:20220628T224515Z
+DTEND;TZID=America/Chicago:20220629T153000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Kamil and Mehmet\,\n\nWith construction underway on your new
+  home\, we’d like to invite you all to the first meeting of the Build Qu
+ ality Experience\, the Build Quality Introduction Meeting.\n\nWe will me
+ et at our model home on Wednesday\, June 29th at 2pm. You all will get t
+ o meet with Jonathan from our Field Manager Team.  He\, along with our t
+ eam\,  will be a part of overseeing the building process with our trade 
+ partners\, as well as giving helping our Team with bi-monthly updates th
+ roughout the rest of the building process.\n\nPlease bring any questions
+  you all have\, and we’ll be happy to answer them.\n\nThank you again fo
+ r the opportunity to build your new Pulte Home! We look forward to seein
+ g you all at the Introduction meeting.\n\nBest\,\nBobby\n\n\n\n_________
+ _______________________\n\nCONFIDENTIALITY NOTICE: This email may contai
+ n confidential and privileged material for the sole use of the intended 
+ recipient(s). Any review\, use\, distribution or disclosure by others is
+  strictly prohibited. If you have received this communication in error\,
+  please notify the sender immediately by email and delete the message an
+ d any file attachments from your computer. Thank you.\n
+BEGIN:VALARM
+X-WR-ALARMUID:20BA3C94-91DF-48B0-B800-468DC1F3C738
+UID:20BA3C94-91DF-48B0-B800-468DC1F3C738
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20220727T143000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="daniel.kim@setschedule.com":mailto:daniel.kim@setschedule.
+ com
+UID:8s3q4rc1fnlns851485rvi73bg@google.com
+DTSTAMP:20220727T185955Z
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Abdullah Uzundere: Referral Opportunity
+LAST-MODIFIED:20220727T185955Z
+DTSTART;TZID=America/Chicago:20220727T140000
+CREATED:20220725T210343Z
+ATTENDEE;CN="daniel.kim@setschedule.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEED
+ S-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:daniel.kim@setschedu
+ le.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:D5082829-4281-4C38-9AF2-FE60D7B1414D
+UID:D5082829-4281-4C38-9AF2-FE60D7B1414D
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220727T185954Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:CC792E46-B8A4-4F76-A218-F637B9FB7771
+UID:CC792E46-B8A4-4F76-A218-F637B9FB7771
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220727T185954Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"2400 Dallas Pkwy Ste.140\, Plano\
+ , TX 75093"\,"LocationAnnotation":""\,"LocationUri":""\,"LocationStreet"
+ :""\,"LocationCity":""\,"LocationState":""\,"LocationCountry":""\,"Locat
+ ionPostalCode":""\,"LocationFullAddress":""}]
+SUMMARY:**Carri Holt for BL** (S) Korekoglu/Altynbaeva - 611 Fence Post 
+ Pass (22-697376-CP)
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:-1848408090
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Cedar Park Calendar":mailto:ccalendar@ctot.com
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:2400 Dallas Pkwy Ste.140\, Plano\, TX 75
+ 093
+UID:040000008200E00074C5B7101A82E00800000000305F795ED8B3D801000000000000
+ 000010000000DA6495F5038A59479996E94856CDCB6F
+DTSTART;TZID=America/Chicago:20220913T120000
+SEQUENCE:2
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+LOCATION:2400 Dallas Pkwy Ste.140\, Plano\, TX 75093
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20220913T171758Z
+LAST-MODIFIED:20220913T171758Z
+ATTENDEE;CN="Bobbie Lockett";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROL
+ E=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:blockett@ctot.com
+ATTENDEE;CN="Capital Title - Lockett Team";CUTYPE=INDIVIDUAL;PARTSTAT=NE
+ EDS-ACTION;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:lockettteam@ctot.c
+ om
+ATTENDEE;CN="Carri Holt";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=RE
+ Q-PARTICIPANT;X-NUM-GUESTS=0:mailto:cholt@ctot.com
+ATTENDEE;CN="Nikey Crisler";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE
+ =REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ncrisler@ctot.com
+ATTENDEE;CN="Plano North Calendar";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTI
+ ON;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:pncalendar@ctot.com
+ATTENDEE;CN="adelcccp@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:adelcccp@gmail.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="tkorekoglu@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTI
+ ON;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tkorekoglu@gmail.com
+CREATED:20220819T215712Z
+X-MICROSOFT-LOCATIONSOURCE:None
+DTEND;TZID=America/Chicago:20220913T130000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:**Update** Carri Holt will be closing this one\, not Nikey. 
+  Sorry for any confusion.\n\n\n\nPlease save this appointment for your u
+ pcoming closing.\n\nAs soon as we receive an approved Settlement Stateme
+ nt from the buyer’s lender\, we will send out a final closing confirmati
+ on with additional instructions.\n\nThank you very much\,\nKristen\n
+BEGIN:VALARM
+X-WR-ALARMUID:86899BAC-11DA-45FA-87B6-2207BA0BB37B
+UID:86899BAC-11DA-45FA-87B6-2207BA0BB37B
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220913T171758Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:33ACDF72-7DFC-4923-A6B5-07C66E5DB5AA
+UID:33ACDF72-7DFC-4923-A6B5-07C66E5DB5AA
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220913T171758Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "1717 Devine Lake Bend"\, "Loc
+ ationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : true\, "Lo
+ cationUri" : "" } ]
+SUMMARY:New Home Orientation - 1717 Devine Lake\; Muaz & Mihrunnisa Kurn
+ az
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:-495024154
+CLASS:PRIVATE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Marnina Bittner":mailto:marnina.bittner@lennar.com
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"On
+ lineMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_YzU1ZWQxNWMtOGM4Mi00OWZiLTk2ZmItOTUyY2QyMjFkMjQy%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%2228e546c7-fd4b-4246-b0c1-c800d6381d7d%22
+ %2c%22Oid%22%3a%221ddc6b43-5efe-45a5-a869-4bc3b3772010%22%7d
+UID:040000008200E00074C5B7101A82E0080000000000BFE21D04BCD801000000000000
+ 0000100000008CA5E2C505C2984DA2AD3ECEE5DED364
+DTSTART;TZID=America/Chicago:20220922T120000
+SEQUENCE:7
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:Marnina.Bittner@Lennar.com\;g
+ ruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_YzU1ZWQxNWMtOGM4Mi00O
+ WZiLTk2ZmItOTUyY2QyMjFkMjQy-thread.v2!1ddc6b435efe45a5a8694bc3b3772010!2
+ 8e546c7fd4b4246b0c1c800d6381d7d
+LOCATION:1717 Devine Lake Bend
+X-MICROSOFT-CDO-APPT-SEQUENCE:7
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+ATTENDEE;CN="Bruce Kilpatrick";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bruce.kilpatrick@lennar.com
+ATTENDEE;CN="Jesus Reyes";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jesus.reyes@lennar.com
+ATTENDEE;CN="Kate Barrett";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:kate.barrett@lennar.com
+ATTENDEE;CN="Levi Zuniga";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:levi.zuniga@lennar.com
+ATTENDEE;CN="Muaz Kurnaz";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:muazkurnaz@gmail.com
+ATTENDEE;CN="Travis Everts";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE
+ =REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:travis.everts@lennar.com
+ATTENDEE;CN="Will Bach";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=REQ
+ -PARTICIPANT;X-NUM-GUESTS=0:mailto:will.bach@lennar.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+ATTENDEE;CN="mihrunnisakurnaz@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEED
+ S-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mihrunnisakurnaz@gma
+ il.com
+STATUS:CONFIRMED
+DTSTAMP:20220922T183943Z
+LAST-MODIFIED:20220922T183943Z
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YzU1ZWQxNWMtOGM4Mi00
+ OWZiLTk2ZmItOTUyY2QyMjFkMjQy@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"
+ private":true\,"type":0}
+CREATED:20220920T153208Z
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.micro
+ soft.com/teams/28e546c7-fd4b-4246-b0c1-c800d6381d7d/1ddc6b43-5efe-45a5-a
+ 869-4bc3b3772010/19_meeting_YzU1ZWQxNWMtOGM4Mi00OWZiLTk2ZmItOTUyY2QyMjFk
+ MjQy@thread.v2/0
+DTEND;TZID=America/Chicago:20220922T140000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Orientation: 9/22 @ 12pm\nSign Off Event: 9/29 @ 1pm\nClosin
+ g: 9/30 Time TBD (details on wire transfer & time will be sent to you th
+ rough your MyLennar Portal\n\n\n\n______________________________________
+ __________________________________________\nMicrosoft Teams meeting\nJoi
+ n on your computer\, mobile app or room device\nClick here to join the m
+ eeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzU1ZWQxNW
+ MtOGM4Mi00OWZiLTk2ZmItOTUyY2QyMjFkMjQy%40thread.v2/0?context=%7b%22Tid%2
+ 2%3a%2228e546c7-fd4b-4246-b0c1-c800d6381d7d%22%2c%22Oid%22%3a%221ddc6b43
+ -5efe-45a5-a869-4bc3b3772010%22%7d>\nMeeting ID: 250 669 874 479\nPassco
+ de: j67NnG\nDownload Teams<https://www.microsoft.com/en-us/microsoft-tea
+ ms/download-app> | Join on the web<https://www.microsoft.com/microsoft-t
+ eams/join-a-meeting>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meet
+ ing options<https://teams.microsoft.com/meetingOptions/?organizerId=1ddc
+ 6b43-5efe-45a5-a869-4bc3b3772010&tenantId=28e546c7-fd4b-4246-b0c1-c800d6
+ 381d7d&threadId=19_meeting_YzU1ZWQxNWMtOGM4Mi00OWZiLTk2ZmItOTUyY2QyMjFkM
+ jQy@thread.v2&messageId=0&language=en-US>\n_____________________________
+ ___________________________________________________\n
+BEGIN:VALARM
+X-WR-ALARMUID:0E63515C-9392-41FF-9D85-03B653A603EA
+UID:0E63515C-9392-41FF-9D85-03B653A603EA
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20220922T183943Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:4BDD4560-ADCE-4E76-9E1A-59C3DD3DB705
+UID:4BDD4560-ADCE-4E76-9E1A-59C3DD3DB705
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20220922T183943Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"On
+ lineMeetingProvider":3}
+X-MICROSOFT-CDO-INSTTYPE:0
+LOCATION:1717 Devine Lake Bend\, Leander\, Texas 78641\, United States
+SUMMARY:Sign Off 1717 Devine Lake - Muaz Kurnaz 
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONPOSTALCODE:78641
+X-MICROSOFT-LOCATIONCOUNTRY:United States
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:Marnina.Bittner@Lennar.com\;g
+ ruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_ZjE2MzJjODktMDg0MS00O
+ GI3LThiMDMtZjRhZDc2NzcxZDNj-thread.v2!1ddc6b435efe45a5a8694bc3b3772010!2
+ 8e546c7fd4b4246b0c1c800d6381d7d
+X-MICROSOFT-LOCATIONSTATE:Texas
+CREATED:20221007T043258Z
+DTEND;TZID=America/Chicago:20221012T150000
+UID:040000008200E00074C5B7101A82E008000000003CD145DF05DAD801000000000000
+ 00001000000001B123DA5F7C4C4D8200B655A8404E1C
+LAST-MODIFIED:20221012T193934Z
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+DTSTART;TZID=America/Chicago:20221012T140000
+X-MICROSOFT-CDO-OWNERAPPTID:2120889916
+DTSTAMP:20221012T193934Z
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.micro
+ soft.com/teams/28e546c7-fd4b-4246-b0c1-c800d6381d7d/1ddc6b43-5efe-45a5-a
+ 869-4bc3b3772010/19_meeting_ZjE2MzJjODktMDg0MS00OGI3LThiMDMtZjRhZDc2Nzcx
+ ZDNj@thread.v2/0
+STATUS:CONFIRMED
+DESCRIPTION:COE: 10/13 TBD\n\n__________________________________________
+ ______________________________________\nMicrosoft Teams meeting\nJoin on
+  your computer\, mobile app or room device\nClick here to join the meeti
+ ng<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjE2MzJjODktMD
+ g0MS00OGI3LThiMDMtZjRhZDc2NzcxZDNj%40thread.v2/0?context=%7b%22Tid%22%3a
+ %2228e546c7-fd4b-4246-b0c1-c800d6381d7d%22%2c%22Oid%22%3a%221ddc6b43-5ef
+ e-45a5-a869-4bc3b3772010%22%7d>\nMeeting ID: 278 893 974 130\nPasscode: 
+ NmD3ns\nDownload Teams<https://www.microsoft.com/en-us/microsoft-teams/d
+ ownload-app> | Join on the web<https://www.microsoft.com/microsoft-teams
+ /join-a-meeting>\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting 
+ options<https://teams.microsoft.com/meetingOptions/?organizerId=1ddc6b43
+ -5efe-45a5-a869-4bc3b3772010&tenantId=28e546c7-fd4b-4246-b0c1-c800d6381d
+ 7d&threadId=19_meeting_ZjE2MzJjODktMDg0MS00OGI3LThiMDMtZjRhZDc2NzcxZDNj@
+ thread.v2&messageId=0&language=en-US>\n_________________________________
+ _______________________________________________\n
+TRANSP:OPAQUE
+ATTENDEE;CN="Bruce Kilpatrick";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bruce.kilpatrick@lennar.com
+ATTENDEE;CN="Donna Montgomery";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:donna.montgomery@lennar.com
+ATTENDEE;CN="Jesus Reyes";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jesus.reyes@lennar.com
+ATTENDEE;CN="John Di Bari";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:john.dibari@lennar.com
+ATTENDEE;CN="Kate Barrett";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:kate.barrett@lennar.com
+ATTENDEE;CN="Muaz Kurnaz";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=R
+ EQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:muazkurnaz@gmail.com
+ATTENDEE;CN="Travis Everts";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE
+ =REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:travis.everts@lennar.com
+ATTENDEE;CN="Will Bach";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACTION;ROLE=REQ
+ -PARTICIPANT;X-NUM-GUESTS=0:mailto:will.bach@lennar.com
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEP
+ TED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail.com
+ATTENDEE;CN="mihrunnisakurnaz@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEED
+ S-ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:mihrunnisakurnaz@gma
+ il.com
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="Marnina Bittner":mailto:marnina.bittner@lennar.com
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZjE2MzJjODktMDg0MS00
+ OGI3LThiMDMtZjRhZDc2NzcxZDNj@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"
+ private":true\,"type":0}
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"1717 Devine Lake Bend"\,"Location
+ Annotation":""\,"LocationSource":1\,"LocationUri":"https://www.bingapis.
+ com/api/v6/geoentities?streetaddress=1717+Devine+Lake+Bend&locality=Lean
+ der&subregion=Williamson+County&region=Texas&postalcode=78641&country=Un
+ ited+States&setLang=en%2cen-us&count=1"\,"LocationStreet":"1717 Devine L
+ ake Bend"\,"LocationCity":"Leander"\,"LocationState":"Texas"\,"LocationC
+ ountry":"United States"\,"LocationPostalCode":"78641"\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LOCATIONCITY:Leander
+X-MICROSOFT-LOCATIONSTREET:1717 Devine Lake Bend
+CLASS:PRIVATE
+X-MICROSOFT-LOCATIONDISPLAYNAME:1717 Devine Lake Bend
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_ZjE2MzJjODktMDg0MS00OGI3LThiMDMtZjRhZDc2NzcxZDNj%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%2228e546c7-fd4b-4246-b0c1-c800d6381d7d%22
+ %2c%22Oid%22%3a%221ddc6b43-5efe-45a5-a869-4bc3b3772010%22%7d
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-LOCATIONURI:https://www.bingapis.com/api/v6/geoentities?stre
+ etaddress=1717+Devine+Lake+Bend&locality=Leander&subregion=Williamson+Co
+ unty&region=Texas&postalcode=78641&country=United+States&setLang=en%2cen
+ -us&count=1
+BEGIN:VALARM
+X-WR-ALARMUID:C1096785-DC79-4E29-8D36-4CFE860C8ACB
+UID:C1096785-DC79-4E29-8D36-4CFE860C8ACB
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20221012T193934Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:D0082B02-01AC-4022-B99A-9019B6BDB054
+UID:D0082B02-01AC-4022-B99A-9019B6BDB054
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20221012T193934Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "https://zillowgroup.zoom.us/j
+ /91288332277?pwd=NTlRb0FzbFFSOFZ1ZldmM0JaeTZaZz09&from=addon"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Locat
+ ionUri" : "" } ]
+SUMMARY:Max Blake's Zoom Meeting
+X-MICROSOFT-CDO-OWNERAPPTID:-1047353370
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Max Blake":mailto:maxb@zillowgroup.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000904CC000FFE2D801000000000000
+ 0000100000009F2CC437A78F724C85536F316480E3D8
+DTSTART;TZID=America/Los_Angeles:20221018T150000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:https://zillowgroup.zoom.us/j/91288332277?pwd=NTlRb0FzbFFSOFZ1Z
+ ldmM0JaeTZaZz09&from=addon
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20221018T215521Z
+LAST-MODIFIED:20221018T215521Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20221018T213626Z
+DTEND;TZID=America/Los_Angeles:20221018T153000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n Max Blake is inviting you to a scheduled Zoom meeting.\n\
+ nJoin Zoom Meeting\nhttps://zillowgroup.zoom.us/j/91288332277?pwd=NTlRb0
+ FzbFFSOFZ1ZldmM0JaeTZaZz09&from=addon\n\nMeeting ID: 912 8833 2277\nPass
+ code: 064533\nOne tap mobile\n+12532158782\,\,91288332277#\,\,\,\,*06453
+ 3# US (Tacoma)\n+17193594580\,\,91288332277#\,\,\,\,*064533# US\n\nDial 
+ by your location\n+1 253 215 8782 US (Tacoma)\n+1 719 359 4580 US\n+1 34
+ 6 248 7799 US (Houston)\n+1 669 444 9171 US\n+1 669 900 9128 US (San Jos
+ e)\n+1 360 209 5623 US\n+1 386 347 5053 US\n+1 564 217 2000 US\n+1 646 5
+ 58 8656 US (New York)\n+1 646 931 3860 US\n+1 301 715 8592 US (Washingto
+ n DC)\n+1 309 205 3325 US\n+1 312 626 6799 US (Chicago)\n888 788 0099 US
+  Toll-free\n833 548 0276 US Toll-free\n833 548 0282 US Toll-free\n877 85
+ 3 5247 US Toll-free\nMeeting ID: 912 8833 2277\nPasscode: 064533\nFind y
+ our local number: https://zillowgroup.zoom.us/u/ag8AFB3Cx\n\nJoin by SIP
+ \n91288332277@zoomcrc.com<mailto:91288332277@zoomcrc.com>\n\nJoin by H.3
+ 23\n162.255.37.11 (US West)\n162.255.36.11 (US East)\n115.114.131.7 (Ind
+ ia Mumbai)\n115.114.115.7 (India Hyderabad)\n213.19.144.110 (Amsterdam N
+ etherlands)\n213.244.140.110 (Germany)\n103.122.166.55 (Australia Sydney
+ )\n103.122.167.55 (Australia Melbourne)\n64.211.144.160 (Brazil)\n69.174
+ .57.160 (Canada Toronto)\n65.39.152.160 (Canada Vancouver)\n207.226.132.
+ 110 (Japan Tokyo)\n149.137.24.110 (Japan Osaka)\nMeeting ID: 912 8833 22
+ 77\nPasscode: 064533\n
+BEGIN:VALARM
+X-WR-ALARMUID:4D2B34BF-4ED8-4910-ABD7-A27D6827978A
+UID:4D2B34BF-4ED8-4910-ABD7-A27D6827978A
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20221018T215521Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:A2820E85-A0F8-475C-8863-27DEA000046E
+UID:A2820E85-A0F8-475C-8863-27DEA000046E
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20221018T215521Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "https://zillowgroup.zoom.us/j
+ /95713128901?pwd=azRPdldzVjRUeGYxazhsRWpVdGtoZz09&from=addon"\, "Locatio
+ nAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Locat
+ ionUri" : "" } ]
+SUMMARY:Max Blake's Zoom Meeting
+X-MICROSOFT-CDO-OWNERAPPTID:2135013350
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Max Blake":mailto:maxb@zillowgroup.com
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000600579EFE1EDD801000000000000
+ 00001000000044381F978285144BB9145F42AAFE6E4A
+DTSTART;TZID=America/Los_Angeles:20221101T113000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:https://zillowgroup.zoom.us/j/95713128901?pwd=azRPdldzVjRUeGYxa
+ zhsRWpVdGtoZz09&from=addon
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+STATUS:CONFIRMED
+DTSTAMP:20221101T182012Z
+LAST-MODIFIED:20221101T182012Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS
+ -ACTION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:longcreekrealty@gmail
+ .com
+CREATED:20221101T180604Z
+DTEND;TZID=America/Los_Angeles:20221101T120000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:\n Max Blake is inviting you to a scheduled Zoom meeting.\n\
+ nJoin Zoom Meeting\nhttps://zillowgroup.zoom.us/j/95713128901?pwd=azRPdl
+ dzVjRUeGYxazhsRWpVdGtoZz09&from=addon\n\nMeeting ID: 957 1312 8901\nPass
+ code: 723871\nOne tap mobile\n+12532158782\,\,95713128901#\,\,\,\,*72387
+ 1# US (Tacoma)\n+17193594580\,\,95713128901#\,\,\,\,*723871# US\n\nDial 
+ by your location\n+1 253 215 8782 US (Tacoma)\n+1 719 359 4580 US\n+1 34
+ 6 248 7799 US (Houston)\n+1 669 444 9171 US\n+1 669 900 9128 US (San Jos
+ e)\n+1 689 278 1000 US\n+1 301 715 8592 US (Washington DC)\n+1 309 205 3
+ 325 US\n+1 312 626 6799 US (Chicago)\n+1 360 209 5623 US\n+1 386 347 505
+ 3 US\n+1 507 473 4847 US\n+1 564 217 2000 US\n+1 646 558 8656 US (New Yo
+ rk)\n+1 646 931 3860 US\n888 788 0099 US Toll-free\n833 548 0276 US Toll
+ -free\n833 548 0282 US Toll-free\n877 853 5247 US Toll-free\nMeeting ID:
+  957 1312 8901\nPasscode: 723871\nFind your local number: https://zillow
+ group.zoom.us/u/a2DA9cV9J\n\nJoin by SIP\n95713128901@zoomcrc.com<mailto
+ :95713128901@zoomcrc.com>\n\nJoin by H.323\n162.255.37.11 (US West)\n162
+ .255.36.11 (US East)\n115.114.131.7 (India Mumbai)\n115.114.115.7 (India
+  Hyderabad)\n213.19.144.110 (Amsterdam Netherlands)\n213.244.140.110 (Ge
+ rmany)\n103.122.166.55 (Australia Sydney)\n103.122.167.55 (Australia Mel
+ bourne)\n64.211.144.160 (Brazil)\n69.174.57.160 (Canada Toronto)\n65.39.
+ 152.160 (Canada Vancouver)\n207.226.132.110 (Japan Tokyo)\n149.137.24.11
+ 0 (Japan Osaka)\nMeeting ID: 957 1312 8901\nPasscode: 723871\n
+BEGIN:VALARM
+X-WR-ALARMUID:85EC61C6-2477-4BCE-A01F-948BCC7D712C
+UID:85EC61C6-2477-4BCE-A01F-948BCC7D712C
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20221101T182012Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:12E8E96D-D181-4857-BBF7-99392941BBD3
+UID:12E8E96D-D181-4857-BBF7-99392941BBD3
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20221101T182012Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://zillowgroup.zoom.us/j/928
+ 39049219?pwd=dTlpVFFOQjZIaHJJd0JxSHBSZ1pQZz09"\,"LocationAnnotation":""\
+ ,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationStat
+ e":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddre
+ ss":""}]
+SUMMARY:Zillow Premier Agent Onboarding: Abdullah Uzundere and Christian
+  Bunyan
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2120945285
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+ORGANIZER;CN="Christian Bunyan":mailto:christianbu@zillowgroup.com
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://zillowgroup.zoom.us/j/9283904921
+ 9?pwd=dTlpVFFOQjZIaHJJd0JxSHBSZ1pQZz09
+UID:040000008200E00074C5B7101A82E00800000000859954921EEED801000000000000
+ 0000100000006F5D2A040B5AD2449F9B01C4533465E2
+DTSTART;TZID=America/Denver:20221102T120000
+SEQUENCE:0
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+LOCATION:https://zillowgroup.zoom.us/j/92839049219?pwd=dTlpVFFOQjZIaHJJd
+ 0JxSHBSZ1pQZz09
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-CDO-INSTTYPE:0
+STATUS:CONFIRMED
+DTSTAMP:20221101T182012Z
+LAST-MODIFIED:20221101T182029Z
+ATTENDEE;CN="longcreekrealty@gmail.com";CUTYPE=INDIVIDUAL;EMAIL="longcre
+ ekrealty@gmail.com";PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=
+ 0:mailto:longcreekrealty@gmail.com
+CREATED:20221101T182008Z
+X-MICROSOFT-LOCATIONSOURCE:None
+DTEND;TZID=America/Denver:20221102T123000
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+DESCRIPTION:Zillow Premier Agent Onboarding Call with your Advisor to re
+ view your goals\, along with Zillow Premier Agent resources\, tools and 
+ best practices.\n\nI look forward to our meeting. Please come prepared t
+ o discuss your business goals.\n\n\nTo maximize our time\, click on the 
+ Zoom link below from your computer to join the meeting\n\nLocation: This
+  is a Zoom web conference.\n\nYou can join this meeting from your comput
+ er\, tablet\, or smartphone.\nhttps://zillowgroup.zoom.us/j/92839049219?
+ pwd=dTlpVFFOQjZIaHJJd0JxSHBSZ1pQZz09\n\nPassword: 666615\n\nOne tap mobi
+ le:\n+1 309 205 3325\,\,92839049219#\n+1 312 626 6799\,\,92839049219#\n\
+ nYou can also dial in using your phone.\nUS: +1 309 205 3325\, +1 312 62
+ 6 6799\, +1 646 558 8656\, +1 646 931 3860\, +1 301 715 8592\, +1 346 24
+ 8 7799\, +1 360 209 5623\, +1 386 347 5053\, +1 507 473 4847\, +1 564 21
+ 7 2000\, +1 669 444 9171\, +1 669 900 9128\, +16892781000\, +1 719 359 4
+ 580\, +1 253 215 8782\, +1 833 548 0282\, +1 877 853 5247\, +1 888 788 0
+ 099\, +1 833 548 0276\nMeeting ID: 928-390-49219\n\nFind your local numb
+ er: https://zillowgroup.zoom.us/u/aes9oX2vSH\n\nCancellation Policy: Ple
+ ase contact your Advisor to reschedule or cancel this meeting Thank you!
+ \n\nNeed to make changes to this event?\nCancel: https://calendly.com/ca
+ ncellations/7bbbfa0d-d8a3-4faf-83eb-eabfc56372db\nReschedule: https://ca
+ lendly.com/reschedulings/7bbbfa0d-d8a3-4faf-83eb-eabfc56372db\n\nPowered
+  by Calendly https://calendly.com/\n
+BEGIN:VALARM
+X-WR-ALARMUID:587CDC97-7B69-4EA4-B2B9-E3BA2753371D
+UID:587CDC97-7B69-4EA4-B2B9-E3BA2753371D
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20221229T093000
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="15534 Ranch Road 620 N, #
+ 100, Austin, TX 78717":geo:30.484943,-97.734673
+UID:93C29FB2A3446D805C853EB48A7D903DF43CF508DE4A912DB7C9B91D0390BC94
+DTSTAMP:20221103T155219Z
+LOCATION:15534 Ranch Road 620 N\, #100\, Austin\, TX 78717
+DESCRIPTION:Appointment for Abdullah at Round Rock 2
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:Appointment at Round Rock 2
+LAST-MODIFIED:20221103T155219Z
+DTSTART;TZID=America/Chicago:20221229T090000
+CREATED:20221101T191257Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:929660B7-7476-4FEF-8BE3-9966B8073FF7
+UID:929660B7-7476-4FEF-8BE3-9966B8073FF7
+TRIGGER:-PT30M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221103T155410Z
+UID:c4o3gdhh6hi3gb9hclj3cb9kc8pm4bb16cs6cbb36di3cohn74rj2pb568@google.co
+ m
+DTEND;TZID=America/Chicago:20221223T090000
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:ARA lab work appointment
+LAST-MODIFIED:20221103T155410Z
+DTSTAMP:20221103T155410Z
+DTSTART;TZID=America/Chicago:20221223T080000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:0A858774-033E-480F-A264-74247E1A3E22
+UID:0A858774-033E-480F-A264-74247E1A3E22
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20221106T150000
+UID:6ks6achncgr38b9k6kpj2b9k64q6ab9pckq6cb9l74rj8e1h61gmco9k6o@google.co
+ m
+DTSTAMP:20221106T202000Z
+LOCATION:17524 Lighthouse Ln Jonestown TX 78645
+DESCRIPTION:Property tour with Manish Dimri
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Property tour with Manish Dimri
+LAST-MODIFIED:20221106T202000Z
+DTSTART;TZID=America/Chicago:20221106T143000
+CREATED:20221106T195802Z
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR;ACKNOWLEDGED=20221106T202000Z:AUTOMATIC
+BEGIN:VALARM
+X-WR-ALARMUID:DE22AD6C-6F1A-490F-8DDD-E438A91E0A50
+UID:DE22AD6C-6F1A-490F-8DDD-E438A91E0A50
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20221106T195004Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:35658286-A9EB-45A1-BE14-BBC85E19C551
+UID:35658286-A9EB-45A1-BE14-BBC85E19C551
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20221106T195004Z
+TRIGGER:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Chicago:20221221T093000
+UID:c8q68e9ncdgm8bb261gjab9k70p62bb160r34b9o6di64or175hm2cb564@google.co
+ m
+DTSTAMP:20221108T231203Z
+LOCATION:Ideal Dental Cedar Park\, 1201 N Bell Blvd Ste 102\, Cedar Park
+ \, TX 78613
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Dental appointment for Bilal
+LAST-MODIFIED:20221108T231203Z
+CREATED:20221108T231203Z
+DTSTART;TZID=America/Chicago:20221221T090000
+BEGIN:VALARM
+X-WR-ALARMUID:9467D776-FD2C-482D-BC5C-EA0533201435
+UID:9467D776-FD2C-482D-BC5C-EA0533201435
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221119T035844Z
+UID:74qj6pj360s36b9gc9imab9kcdgm6bb175i3cbb6cop36cr6cli30pb66k@google.co
+ m
+DTEND;TZID=America/Chicago:20221119T113000
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Ermal
+LAST-MODIFIED:20221119T035844Z
+DTSTAMP:20221119T035844Z
+DTSTART;TZID=America/Chicago:20221119T103000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:ED13FF3B-188F-42E4-95FE-BC03C8546070
+UID:ED13FF3B-188F-42E4-95FE-BC03C8546070
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221119T040119Z
+UID:6crj2d1n74s6cb9g68rj2b9k6crm4bb1cdi62bb4ccqmce366cpm8ohjck@google.co
+ m
+DTEND;TZID=America/Chicago:20221119T111500
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Jordan
+LAST-MODIFIED:20221119T040119Z
+DTSTAMP:20221119T040119Z
+DTSTART;TZID=America/Chicago:20221119T110000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:90EB9D86-A0B0-4DE3-A718-31701A7D48F8
+UID:90EB9D86-A0B0-4DE3-A718-31701A7D48F8
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221119T040119Z
+UID:c8p34e9i6hhj0b9pcks3cb9k6oojgb9o6co30bb5c9i38dpjcph6acho64@google.co
+ m
+DTEND;TZID=America/Chicago:20221119T124500
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Danielle
+LAST-MODIFIED:20221119T040119Z
+DTSTAMP:20221119T040119Z
+DTSTART;TZID=America/Chicago:20221119T123000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:761470B9-7EE1-4D7A-A9A0-904BDE468F5D
+UID:761470B9-7EE1-4D7A-A9A0-904BDE468F5D
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221119T044420Z
+UID:cgq68cr475gjgb9m75h6ab9k6crjib9p6op3ib9jcli38d9mc9h36d9icg@google.co
+ m
+DTEND;TZID=America/Chicago:20221119T180000
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Esteban
+LAST-MODIFIED:20221119T044420Z
+DTSTAMP:20221119T044420Z
+DTSTART;TZID=America/Chicago:20221119T170000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:6628A832-708D-420C-9BBB-761D15F1B675
+UID:6628A832-708D-420C-9BBB-761D15F1B675
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20221119T163105Z
+UID:c8o34cb671j64b9ic4q3ab9k6ssjgb9ocli3ib9p6phj4ohp6tgj4dhm74@google.co
+ m
+DTEND;TZID=America/Chicago:20221119T163000
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Sunny
+LAST-MODIFIED:20221119T163105Z
+DTSTAMP:20221119T163105Z
+DTSTART;TZID=America/Chicago:20221119T153000
+SEQUENCE:0
+BEGIN:VALARM
+X-WR-ALARMUID:62B1C79A-C3B6-468D-80A0-F627E0B02F9F
+UID:62B1C79A-C3B6-468D-80A0-F627E0B02F9F
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
